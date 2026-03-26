@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "title": "The Spirits Encyclopedia",
+    "description": "An encyclopedic guide to the world's spirits"
+  },
+  "ageGate": {
+    "title": "Age Verification Required",
+    "message": "You must be 21 years or older to access this website. Are you 21 or older?",
+    "yes": "Yes, I am 21+",
+    "no": "No, I am under 21",
+    "disclaimer": "This website contains educational content about alcoholic beverages. No commercial transactions are facilitated."
+  },
+  "header": {
+    "siteTitle": "The Spirits Encyclopedia"
+  },
+  "home": {
+    "title": "Discover the Heritage of the World's Spirits",
+    "subtitle": "An encyclopedic guide to spirits from around the globe"
+  },
+  "hero": {
+    "label": "Encyclopaedia",
+    "titlePart1": "Discover the",
+    "titleAccent": "Heritage",
+    "titlePart2": "of the World's Spirits",
+    "description": "An educational guide exploring the history, production, and cultural significance of alcoholic beverages from around the globe.",
+    "scrollHint": "Explore"
+  },
+  "footer": {
+    "description": "An educational resource providing factual, encyclopedic information about alcoholic beverages worldwide. No commercial transactions are facilitated through this website.",
+    "categories": "Categories",
+    "more": "More",
+    "legal": "Legal",
+    "about": "About",
+    "disclaimer": "Disclaimer",
+    "privacy": "Privacy",
+    "copyright": "© 2026 The Spirits Encyclopedia. Educational use only.",
+    "nataBadge": "NATA Act Compliant — No commercial promotion"
+  },
+  "relatedBottles": {
+    "heading": "You might also explore"
+  },
+  "category": {
+    "breadcrumbHome": "Home",
+    "noEntries": "No entries listed yet."
+  },
+  "bottleDetail": {
+    "abv": "Alcohol by Volume",
+    "origin": "Origin",
+    "ingredients": "Ingredients",
+    "productionMethod": "Production Method",
+    "history": "Historical Background"
+  },
+  "search": {
+    "placeholder": "Search bottles...",
+    "noResults": "No bottles found."
+  }
+}

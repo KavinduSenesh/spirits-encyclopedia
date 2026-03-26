@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "WebFetch(domain:next-intl-docs.vercel.app)",
+      "WebFetch(domain:next-intl.dev)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "Bash(npx create-next-app@14 . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\")",
+      "Read(//mnt/d/New folder/**)",
+      "Bash(npx create-next-app@14 wiki-temp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\")",
+      "Bash(cp -r wiki-temp/* wiki-temp/.* \"/mnt/d/New folder/Wiki/\")",
+      "Bash(rm -rf wiki-temp)",
+      "Bash(for f:*)",
+      "Bash(do cp:*)",
+      "Bash(done)",
+      "Bash(cp -r wiki-temp/src Wiki/)",
+      "Bash(cp -r wiki-temp/.eslintrc.json Wiki/)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Read(//home/senesh/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.5/**)",
+      "Bash(bash scripts/start-server.sh --project-dir \"/mnt/d/New folder/Wiki\")",
+      "Bash(ls -la \"/mnt/d/New folder/Wiki/.superpowers/brainstorm/\"*/\".server-info\")",
+      "Bash(rm:*)",
+      "Bash(bash \"/home/senesh/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.5/skills/brainstorming/scripts/start-server.sh\" --project-dir \"/mnt/d/New folder/Wiki\" 2>&1)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); [print\\(c[''''id''''], c[''''slug'''']\\) for c in d[''''categories'''']]\")",
+      "Bash(wait)"
+    ]
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "categories": [
+    {
+      "id": "arrack",
+      "slug": "arrack",
+      "name": { "en": "Arrack", "si": "අරක්කු" },
+      "description": {
+        "en": "A traditional distilled spirit produced from the sap of coconut flowers or fermented fruit, with deep roots in Sri Lankan culture and history.",
+        "si": "පොල් මල් වල රසයෙන් හෝ පැසවූ පලතුරු වලින් සාදන සම්ප්‍රදායික ආසවනය කළ මධ්‍යසාර පාන වර්ගයකි. ශ්‍රී ලංකාවේ සංස්කෘතියේ සහ ඉතිහාසයේ ගැඹුරු මුල් ඇත."
+      },
+      "image": ""
+    },
+    {
+      "id": "beer",
+      "slug": "beer",
+      "name": { "en": "Beer", "si": "බියර්" },
+      "description": {
+        "en": "Brewed alcoholic beverages made from malted barley, hops, water, and yeast. Several breweries operate within Sri Lanka producing lagers and ales.",
+        "si": "මෝල්ට් කළ බාර්ලි, හොප්ස්, ජලය සහ යීස්ට් වලින් සාදන මධ්‍යසාර පාන වර්ගයකි. ශ්‍රී ලංකාව තුළ ලේගර් සහ ඒල් නිෂ්පාදනය කරන කර්මාන්තශාලා කිහිපයක් ක්‍රියාත්මක වේ."
+      },
+      "image": ""
+    },
+    {
+      "id": "stout",
+      "slug": "stout",
+      "name": { "en": "Stout", "si": "ස්ටවුට්" },
+      "description": {
+        "en": "A dark, top-fermented beer made with roasted malt or barley. Stout has a long history in Sri Lanka, introduced during the British colonial period.",
+        "si": "බැදපු මෝල්ට් හෝ බාර්ලි වලින් සාදන අඳුරු, ඉහළ-පැසවූ බියර් වර්ගයකි. බ්‍රිතාන්‍ය යටත් විජිත සමයේ හඳුන්වා දුන් ස්ටවුට් ශ්‍රී ලංකාවේ දිගු ඉතිහාසයක් ඇත."
+      },
+      "image": ""
+    },
+    {
+      "id": "gin",
+      "slug": "gin",
+      "name": { "en": "Gin", "si": "ජින්" },
+      "description": {
+        "en": "A distilled spirit flavored primarily with juniper berries. Gin production in Sri Lanka utilizes locally available botanicals alongside traditional ingredients.",
+        "si": "ප්‍රධාන වශයෙන් ජුනිපර් බෙරි වලින් රස ගැන්වූ ආසවනය කළ මධ්‍යසාර පාන වර්ගයකි. ශ්‍රී ලංකාවේ ජින් නිෂ්පාදනයේදී සම්ප්‍රදායික අමුද්‍රව්‍ය සමඟ දේශීය වශයෙන් ලබා ගත හැකි ශාක ද්‍රව්‍ය භාවිතා කරයි."
+      },
+      "image": ""
+    },
+    {
+      "id": "vodka",
+      "slug": "vodka",
+      "name": { "en": "Vodka", "si": "වොඩ්කා" },
+      "description": {
+        "en": "A clear distilled spirit typically made from grains or potatoes, characterized by its neutral flavor profile. Produced in Sri Lanka for the domestic market.",
+        "si": "සාමාන්‍යයෙන් ධාන්‍ය හෝ අර්තාපල් වලින් සාදන පැහැදිලි ආසවනය කළ මධ්‍යසාර පාන වර්ගයකි. එහි මධ්‍යස්ථ රස පැතිකඩ මගින් සංලක්ෂිත වේ. දේශීය වෙළඳපොළ සඳහා ශ්‍රී ලංකාවේ නිෂ්පාදනය කරයි."
+      },
+      "image": ""
+    },
+    {
+      "id": "whisky",
+      "slug": "whisky",
+      "name": { "en": "Whisky", "si": "විස්කි" },
+      "description": {
+        "en": "A distilled spirit made from fermented grain mash, typically aged in wooden casks. Both imported and locally blended varieties are available in Sri Lanka.",
+        "si": "පැසවූ ධාන්‍ය මැශ් එකකින් සාදන ආසවනය කළ මධ්‍යසාර පාන වර්ගයකි, සාමාන්‍යයෙන් ලී බැරල් වල පරිණත කරයි. ආනයනික සහ දේශීය වශයෙන් මිශ්‍ර කළ වර්ග දෙකම ශ්‍රී ලංකාවේ ඇත."
+      },
+      "image": ""
+    },
+    {
+      "id": "rum",
+      "slug": "rum",
+      "name": { "en": "Rum", "si": "රම්" },
+      "description": {
+        "en": "A distilled spirit made from sugarcane byproducts such as molasses or directly from sugarcane juice. Sri Lanka has a tradition of rum production linked to its sugarcane cultivation.",
+        "si": "උක් අතුරු නිෂ්පාදන වන මොලැසිස් හෝ කෙලින්ම උක් යුෂ වලින් සාදන ආසවනය කළ මධ්‍යසාර පාන වර්ගයකි. ශ්‍රී ලංකාවේ උක් වගාවට සම්බන්ධ රම් නිෂ්පාදන සම්ප්‍රදායක් ඇත."
+      },
+      "image": ""
+    },
+    {
+      "id": "wine",
+      "slug": "wine",
+      "name": { "en": "Wine", "si": "වයින්" },
+      "description": {
+        "en": "An alcoholic beverage made from fermented grapes or other fruits. Wine production in Sri Lanka includes varieties made from local tropical fruits.",
+        "si": "පැසවූ මිදි හෝ වෙනත් පලතුරු වලින් සාදන මධ්‍යසාර පාන වර්ගයකි. ශ්‍රී ලංකාවේ වයින් නිෂ්පාදනයට දේශීය නිවර්තන පලතුරු වලින් සාදන වර්ග ඇතුළත් වේ."
+      },
+      "image": ""
+    }
+  ],
+  "bottles": [
+    {
+      "id": "ceylon-arrack",
+      "slug": "ceylon-arrack",
+      "categoryId": "arrack",
+      "name": { "en": "Ceylon Arrack", "si": "ලංකා අරක්කු" },
+      "abv": "33-40%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Coconut flower sap (toddy), natural yeast",
+        "si": "පොල් මල් රස (තල්), ස්වාභාවික යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Ceylon Arrack is produced through the natural fermentation of coconut flower sap, known locally as toddy. Toddy tappers climb coconut palms at dawn and dusk to collect the sap from the flower spadix. The fresh sap ferments naturally within hours due to wild yeast. The fermented toddy is then distilled in pot stills or column stills. The resulting spirit may be aged in halmilla wood or oak casks for varying periods.",
+        "si": "ලංකා අරක්කු නිෂ්පාදනය කරන්නේ පොල් මල් රසය ස්වාභාවිකව පැසවීමෙනි, එය දේශීයව තල් ලෙස හැඳින්වේ. තල් ඉහලට නැගෙන්නෝ උදෑසන සහ සවස් වරුවේ පොල් ගස් වලට නැඟ මල් කරලයෙන් රසය එකතු කරති. නැවුම් රසය වල් යීස්ට් හේතුවෙන් පැය කිහිපයක් තුළ ස්වාභාවිකව පැසේ. පැසවූ තල් පසුව බඳුන් ආසවන යන්ත්‍ර හෝ තීරු ආසවන යන්ත්‍ර වලින් ආසවනය කරයි. ලැබෙන මධ්‍යසාරය හල්මිල්ල ලීයේ හෝ ඕක් බැරල් වල විවිධ කාල පරිච්ඡේද සඳහා පරිණත කළ හැකිය."
+      },
+      "history": {
+        "en": "Arrack production in Sri Lanka dates back several centuries, with historical records from the Dutch colonial period (1640–1796) documenting established distillation practices. The term 'arrack' derives from the Arabic word 'araq' meaning 'sweat' or 'juice.' During British rule, arrack production was regulated under excise laws. Today, it remains one of the most widely consumed spirits in Sri Lanka, with production concentrated in the coastal coconut-growing regions.",
+        "si": "ශ්‍රී ලංකාවේ අරක්කු නිෂ්පාදනය සියවස් කිහිපයකට ඉහත දිව යයි, ලන්දේසි යටත් විජිත සමයේ (1640–1796) ඓතිහාසික වාර්තා වල ස්ථාපිත ආසවන පිළිවෙත් සටහන් වී ඇත. 'අරක්කු' යන පදය 'දහඩිය' හෝ 'යුෂ' යන අර්ථය ඇති අරාබි වචනය 'araq' වෙතින් ව්‍යුත්පන්න වේ. බ්‍රිතාන්‍ය පාලන සමයේ, අරක්කු නිෂ්පාදනය සුරාබදු නීති යටතේ නියාමනය කරන ලදී. අද, එය ශ්‍රී ලංකාවේ වැඩිපුරම පරිභෝජනය කරන මධ්‍යසාර වර්ග අතරින් එකක් ලෙස පවතින අතර, නිෂ්පාදනය වෙරළබඩ පොල් වගා කලාප වල කේන්ද්‍රගත වී ඇත."
+      },
+      "image": ""
+    },
+    {
+      "id": "coconut-arrack",
+      "slug": "coconut-arrack",
+      "categoryId": "arrack",
+      "name": { "en": "Coconut Flower Arrack", "si": "පොල් මල් අරක්කු" },
+      "abv": "30-38%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Coconut flower sap, natural fermentation agents",
+        "si": "පොල් මල් රස, ස්වාභාවික පැසවීමේ කාරක"
+      },
+      "productionMethod": {
+        "en": "Coconut Flower Arrack follows a similar production process to Ceylon Arrack, beginning with the collection of toddy from coconut palms. The distinction lies in the single distillation process and shorter aging period, resulting in a spirit that more directly reflects the character of the coconut flower sap.",
+        "si": "පොල් මල් අරක්කු නිෂ්පාදනය ලංකා අරක්කු වලට සමාන ක්‍රියාවලියක් අනුගමනය කරයි, පොල් ගස් වලින් තල් එකතු කිරීමෙන් ආරම්භ වේ. වෙනස වන්නේ තනි ආසවන ක්‍රියාවලිය සහ කෙටි පරිණත කාලය වන අතර, පොල් මල් රසයේ ලක්ෂණ වඩාත් සෘජුව පිළිබිඹු කරන මධ්‍යසාරයක් ලැබේ."
+      },
+      "history": {
+        "en": "The production of arrack from coconut flower sap is a practice indigenous to Sri Lanka and other coconut-growing regions of South and Southeast Asia. Historical accounts from Portuguese traders in the 16th century describe the collection and distillation of coconut toddy along the Sri Lankan coast.",
+        "si": "පොල් මල් රසයෙන් අරක්කු නිෂ්පාදනය ශ්‍රී ලංකාවට සහ දකුණු හා අග්නිදිග ආසියාවේ අනෙකුත් පොල් වගා කලාප වලට ආවේණික පිළිවෙතකි. 16 වන සියවසේ පෘතුගීසි වෙළඳුන්ගේ ඓතිහාසික විස්තර ශ්‍රී ලංකාවේ වෙරළ දිගේ පොල් තල් එකතු කිරීම සහ ආසවනය විස්තර කරයි."
+      },
+      "image": ""
+    },
+    {
+      "id": "lion-lager",
+      "slug": "lion-lager",
+      "categoryId": "beer",
+      "name": { "en": "Lion Lager", "si": "ලයන් ලේගර්" },
+      "abv": "4.8%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Water, malted barley, hops, yeast",
+        "si": "ජලය, මෝල්ට් කළ බාර්ලි, හොප්ස්, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Lion Lager is brewed using a standard lager brewing process. Malted barley is mashed to extract fermentable sugars, then boiled with hops. The wort is cooled and fermented with bottom-fermenting lager yeast at controlled temperatures. After fermentation, the beer undergoes a cold conditioning period before filtration and packaging.",
+        "si": "ලයන් ලේගර් සම්මත ලේගර් පිසීමේ ක්‍රියාවලියක් භාවිතයෙන් පිසීම සිදු කරයි. මෝල්ට් කළ බාර්ලි පැසවිය හැකි සීනි උකහා ගැනීමට මැෂ් කරයි, පසුව හොප්ස් සමඟ තම්බයි. වෝට් එක සිසිල් කර පාලිත උෂ්ණත්වවල පහළ-පැසවීමේ ලේගර් යීස්ට් සමඟ පැසවයි. පැසවීමෙන් පසු, බියර් පෙරීමට සහ ඇසුරුම් කිරීමට පෙර සීත කන්ඩිෂනින් කාලයකට භාජනය වේ."
+      },
+      "history": {
+        "en": "Lion Brewery was established in 1881 in Nuwara Eliya, making it one of the oldest breweries in South Asia. The brewery was initially set up to serve the British colonial community. It has since become one of the primary beer producers in Sri Lanka, with the brewery now located in Biyagama.",
+        "si": "ලයන් බියර් කර්මාන්තශාලාව 1881 දී නුවරඑළියේ පිහිටුවන ලද අතර, එය දකුණු ආසියාවේ පැරණිතම බියර් කර්මාන්තශාලාවන්ගෙන් එකක් බවට පත් විය. කර්මාන්තශාලාව මුලින් ස්ථාපිත කරන ලද්දේ බ්‍රිතාන්‍ය යටත් විජිත ප්‍රජාවට සේවය කිරීම සඳහාය. එය තැන් සිට ශ්‍රී ලංකාවේ ප්‍රාථමික බියර් නිෂ්පාදකයින්ගෙන් එකක් බවට පත්ව ඇති අතර, කර්මාන්තශාලාව දැන් බියගම පිහිටා ඇත."
+      },
+      "image": "/images/bottles/lion-lager.jpg"
+    },
+    {
+      "id": "three-coins",
+      "slug": "three-coins",
+      "categoryId": "beer",
+      "name": { "en": "Three Coins Pilsner", "si": "ත්‍රී කොයින්ස් පිල්ස්නර්" },
+      "abv": "4.8%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Water, malted barley, hops, yeast",
+        "si": "ජලය, මෝල්ට් කළ බාර්ලි, හොප්ස්, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Three Coins is brewed as a pilsner-style lager. The brewing process involves mashing malted barley, boiling with Saaz or similar hop varieties for bitterness and aroma, followed by fermentation with bottom-fermenting yeast and extended cold conditioning.",
+        "si": "ත්‍රී කොයින්ස් පිල්ස්නර් ශෛලීය ලේගර් ලෙස පිසීම සිදු කරයි. මෝල්ට් කළ බාර්ලි මැෂ් කිරීම, තිත්ත බව සහ සුවඳ සඳහා Saaz හෝ සමාන හොප් ප්‍රභේද සමඟ තම්බීම, පහළ-පැසවීමේ යීස්ට් සමඟ පැසවීම සහ දීර්ඝ සීත කන්ඩිෂනින් ඇතුළත් වේ."
+      },
+      "history": {
+        "en": "Three Coins has been produced in Sri Lanka since the mid-20th century. It is brewed by McCallum Breweries, which operates under the broader Sri Lankan beverage industry. The pilsner style reflects European brewing traditions adapted for the Sri Lankan market.",
+        "si": "ත්‍රී කොයින්ස් 20 වන සියවසේ මැද භාගයේ සිට ශ්‍රී ලංකාවේ නිෂ්පාදනය කර ඇත. එය McCallum Breweries විසින් පිසීම සිදු කරන අතර, එය පුළුල් ශ්‍රී ලංකා පාන කර්මාන්තය යටතේ ක්‍රියාත්මක වේ. පිල්ස්නර් ශෛලිය ශ්‍රී ලංකා වෙළඳපොළ සඳහා අනුවර්තනය කරන ලද යුරෝපීය පිසීමේ සම්ප්‍රදායන් පිළිබිඹු කරයි."
+      },
+      "image": "/images/bottles/three-coins.jpg"
+    },
+    {
+      "id": "lion-stout",
+      "slug": "lion-stout",
+      "categoryId": "stout",
+      "name": { "en": "Lion Stout", "si": "ලයන් ස්ටවුට්" },
+      "abv": "8.0%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Water, roasted malted barley, hops, sugar, yeast",
+        "si": "ජලය, බැදපු මෝල්ට් කළ බාර්ලි, හොප්ස්, සීනි, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Lion Stout is brewed with roasted malted barley, which gives it a dark color and roasted flavor characteristics. The brewing process follows traditional stout methods with top-fermenting ale yeast. The higher alcohol content is achieved through additional fermentable sugars in the recipe.",
+        "si": "ලයන් ස්ටවුට් බැදපු මෝල්ට් කළ බාර්ලි සමඟ පිසීම සිදු කරන අතර, එය අඳුරු වර්ණය සහ බැදපු රස ලක්ෂණ ලබා දෙයි. පිසීමේ ක්‍රියාවලිය ඉහළ-පැසවීමේ ඒල් යීස්ට් සමඟ සම්ප්‍රදායික ස්ටවුට් ක්‍රම අනුගමනය කරයි. වැඩි මත්පැන් ප්‍රමාණය වට්ටෝරුවේ අමතර පැසවිය හැකි සීනි මගින් ලබා ගනී."
+      },
+      "history": {
+        "en": "Lion Stout has been produced since the establishment of Lion Brewery in 1881. It was originally brewed in Nuwara Eliya at an elevation of over 1,800 meters, where the cooler climate was conducive to brewing. The stout has gained recognition internationally and is considered one of the notable stouts produced in Asia.",
+        "si": "ලයන් ස්ටවුට් 1881 දී ලයන් බියර් කර්මාන්තශාලාව ස්ථාපනය කළ දා සිට නිෂ්පාදනය කර ඇත. එය මුලින් මීටර් 1,800 කට වැඩි උන්නතාංශයක පිහිටි නුවරඑළියේ පිසීම සිදු කරන ලද අතර, එහි සිසිල් දේශගුණය පිසීමට හිතකර විය. ස්ටවුට් ජාත්‍යන්තර වශයෙන් පිළිගැනීමක් ලබා ඇති අතර ආසියාවේ නිෂ්පාදිත කැපී පෙනෙන ස්ටවුට් වලින් එකක් ලෙස සැලකේ."
+      },
+      "image": "/images/bottles/lion-stout.jpg"
+    },
+    {
+      "id": "rockland-gin",
+      "slug": "rockland-gin",
+      "categoryId": "gin",
+      "name": { "en": "Rockland Dry Gin", "si": "රොක්ලන්ඩ් ඩ්‍රයි ජින්" },
+      "abv": "36%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Neutral grain spirit, juniper berries, coriander, angelica root, citrus peel, local botanicals",
+        "si": "මධ්‍යස්ථ ධාන්‍ය මධ්‍යසාරය, ජුනිපර් බෙරි, කොත්තමල්ලි, ඇන්ජෙලිකා මුල්, සිට්‍රස්껍ල්, දේශීය ශාක ද්‍රව්‍ය"
+      },
+      "productionMethod": {
+        "en": "Rockland Dry Gin is produced by redistilling a neutral spirit with a selection of botanicals. The primary flavoring comes from juniper berries, supplemented by coriander, angelica root, and citrus peel. The botanicals are steeped in the base spirit before redistillation.",
+        "si": "රොක්ලන්ඩ් ඩ්‍රයි ජින් ශාක ද්‍රව්‍ය තෝරාගැනීමක් සමඟ මධ්‍යස්ථ මධ්‍යසාරයක් නැවත ආසවනය කිරීමෙන් නිෂ්පාදනය කරයි. ප්‍රාථමික රස ගැන්වීම ජුනිපර් බෙරි වලින් ලැබෙන අතර, කොත්තමල්ලි, ඇන්ජෙලිකා මුල්, සහ සිට්‍රස්껍ල් මගින් සම්පූර්ණ කරයි. නැවත ආසවනයට පෙර ශාක ද්‍රව්‍ය පාදක මධ්‍යසාරයේ ගිල්වයි."
+      },
+      "history": {
+        "en": "Rockland is a brand produced under the Sri Lankan spirits industry, part of a range of domestically produced spirits that cater to the local market. The gin category in Sri Lanka reflects both colonial-era influences and modern production techniques.",
+        "si": "රොක්ලන්ඩ් ශ්‍රී ලංකා මධ්‍යසාර කර්මාන්තය යටතේ නිෂ්පාදිත වෙළඳ නාමයකි, දේශීය වෙළඳපොළට සේවය කරන දේශීය වශයෙන් නිෂ්පාදිත මධ්‍යසාර පරාසයක කොටසකි. ශ්‍රී ලංකාවේ ජින් කාණ්ඩය යටත් විජිත යුගයේ බලපෑම් සහ නවීන නිෂ්පාදන ශිල්පීය ක්‍රම දෙකම පිළිබිඹු කරයි."
+      },
+      "image": "/images/bottles/rockland-gin.jpg"
+    },
+    {
+      "id": "mendis-vodka",
+      "slug": "mendis-vodka",
+      "categoryId": "vodka",
+      "name": { "en": "Mendis Coconut Vodka", "si": "මෙන්ඩිස් පොල් වොඩ්කා" },
+      "abv": "40%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Coconut spirit, purified water",
+        "si": "පොල් මධ්‍යසාරය, පිරිසිදු කළ ජලය"
+      },
+      "productionMethod": {
+        "en": "This vodka is produced using coconut-derived spirit as its base, distinguishing it from grain-based vodkas common elsewhere. The coconut spirit undergoes multiple distillation passes and charcoal filtration to achieve a neutral flavor profile while retaining a subtle coconut character.",
+        "si": "මෙම වොඩ්කා පොල් වලින් ලබාගත් මධ්‍යසාරය එහි පාදකය ලෙස භාවිතා කරමින් නිෂ්පාදනය කරයි, එය වෙනත් තැනක සුලභ ධාන්‍ය-පාදක වොඩ්කා වලින් වෙන් කරයි. පොල් මධ්‍යසාරය මධ්‍යස්ථ රස පැතිකඩක් ලබා ගැනීම සඳහා බහු ආසවන පාස් සහ ගල්අඟුරු පෙරීමකට භාජනය වන අතර සියුම් පොල් ලක්ෂණයක් රඳවා තබා ගනී."
+      },
+      "history": {
+        "en": "Mendis is one of the established distillery brands in Sri Lanka, with operations dating back several decades. The use of coconut as a base for vodka production represents an adaptation of traditional European spirit-making to locally available raw materials in Sri Lanka.",
+        "si": "මෙන්ඩිස් ශ්‍රී ලංකාවේ ස්ථාපිත ආසවනාගාර වෙළඳ නාම වලින් එකකි, දශක කිහිපයකට පෙර සිට ක්‍රියාකාරකම් පවතී. වොඩ්කා නිෂ්පාදනය සඳහා පොල් පාදකයක් ලෙස භාවිතා කිරීම ශ්‍රී ලංකාවේ දේශීය වශයෙන් ලබා ගත හැකි අමුද්‍රව්‍ය වලට සාම්ප්‍රදායික යුරෝපීය මධ්‍යසාර නිෂ්පාදනයේ අනුවර්තනයක් නියෝජනය කරයි."
+      },
+      "image": "/images/bottles/mendis-vodka.jpg"
+    },
+    {
+      "id": "rockland-whisky",
+      "slug": "rockland-whisky",
+      "categoryId": "whisky",
+      "name": { "en": "Rockland Whisky", "si": "රොක්ලන්ඩ් විස්කි" },
+      "abv": "36%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Grain spirit, malt spirit, caramel coloring, water",
+        "si": "ධාන්‍ය මධ්‍යසාරය, මෝල්ට් මධ්‍යසාරය, කැරමල් වර්ණකය, ජලය"
+      },
+      "productionMethod": {
+        "en": "Rockland Whisky is a blended whisky produced by combining grain spirit with malt spirit. The blending process involves selecting spirits of different character and combining them to achieve a consistent flavor profile. Caramel coloring may be added for consistency in appearance.",
+        "si": "රොක්ලන්ඩ් විස්කි ධාන්‍ය මධ්‍යසාරය මෝල්ට් මධ්‍යසාරය සමඟ ඒකාබද්ධ කිරීමෙන් නිෂ්පාදනය කරන මිශ්‍ර විස්කියකි. මිශ්‍ර ක්‍රියාවලියට විවිධ ලක්ෂණ සහිත මධ්‍යසාර තෝරා ගැනීම සහ ස්ථාවර රස පැතිකඩක් ලබා ගැනීමට ඒවා ඒකාබද්ධ කිරීම ඇතුළත් වේ. පෙනුමේ අනුකූලතාව සඳහා කැරමල් වර්ණකය එකතු කළ හැකිය."
+      },
+      "history": {
+        "en": "Whisky production and consumption in Sri Lanka has grown over the decades, with both imported Scotch whiskies and locally blended varieties available. Rockland represents the locally produced category, offering a domestically blended alternative.",
+        "si": "ශ්‍රී ලංකාවේ විස්කි නිෂ්පාදනය සහ පරිභෝජනය දශක ගණනාවක් තුළ වර්ධනය වී ඇති අතර, ආනයනික ස්කොච් විස්කි සහ දේශීය වශයෙන් මිශ්‍ර කළ වර්ග දෙකම ලබා ගත හැකිය. රොක්ලන්ඩ් දේශීය වශයෙන් නිෂ්පාදිත කාණ්ඩය නියෝජනය කරන අතර, දේශීය වශයෙන් මිශ්‍ර කළ විකල්පයක් ලබා දෙයි."
+      },
+      "image": "/images/bottles/rockland-whisky.jpg"
+    },
+    {
+      "id": "ceylon-dark-rum",
+      "slug": "ceylon-dark-rum",
+      "categoryId": "rum",
+      "name": { "en": "Ceylon Dark Rum", "si": "ලංකා ඩාක් රම්" },
+      "abv": "34%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Sugarcane molasses, water, yeast",
+        "si": "උක් මොලැසිස්, ජලය, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Ceylon Dark Rum is produced by fermenting sugarcane molasses with yeast, then distilling the fermented wash. The distillate is aged in charred oak casks, which imparts the dark color and contributes to the flavor development. The aging process in Sri Lanka's tropical climate accelerates maturation compared to temperate regions.",
+        "si": "ලංකා ඩාක් රම් උක් මොලැසිස් යීස්ට් සමඟ පැසවීමෙන් නිෂ්පාදනය කරයි, පසුව පැසවූ සේදීම ආසවනය කරයි. ආසවනය අඟුරු දැමූ ඕක් බැරල් වල පරිණත කරන අතර, එය අඳුරු වර්ණය ලබා දෙන අතර රස සංවර්ධනයට දායක වේ. ශ්‍රී ලංකාවේ නිවර්තන දේශගුණයේ පරිණත ක්‍රියාවලිය සෘතු ප්‍රදේශ වලට සාපේක්ෂව පරිණත වීම වේගවත් කරයි."
+      },
+      "history": {
+        "en": "Rum production in Sri Lanka is linked to the island's history of sugarcane cultivation, which was expanded during colonial periods. The tropical climate of Sri Lanka provides conditions for both sugarcane growing and accelerated spirit aging, contributing to a distinct regional character in the final product.",
+        "si": "ශ්‍රී ලංකාවේ රම් නිෂ්පාදනය දූපතේ උක් වගා ඉතිහාසයට සම්බන්ධ වී ඇති අතර, එය යටත් විජිත සමයන්හිදී පුළුල් කරන ලදී. ශ්‍රී ලංකාවේ නිවර්තන දේශගුණය උක් වගාව සහ වේගවත් මධ්‍යසාර පරිණත කිරීම සඳහා කොන්දේසි සපයන අතර, අවසන් නිෂ්පාදනයේ සුවිශේෂ ප්‍රාදේශීය ලක්ෂණයකට දායක වේ."
+      },
+      "image": "/images/bottles/ceylon-dark-rum.jpg"
+    },
+    {
+      "id": "white-rum",
+      "slug": "white-rum",
+      "categoryId": "rum",
+      "name": { "en": "Ceylon White Rum", "si": "ලංකා සුදු රම්" },
+      "abv": "34%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Sugarcane molasses, water, yeast",
+        "si": "උක් මොලැසිස්, ජලය, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Ceylon White Rum is produced similarly to dark rum but without extended aging in charred casks. After distillation, the spirit is filtered through activated charcoal to remove color and stored in stainless steel tanks or uncharred casks for a brief period before bottling.",
+        "si": "ලංකා සුදු රම් අඳුරු රම් වලට සමානව නිෂ්පාදනය කරයි, නමුත් අඟුරු දැමූ බැරල් වල දීර්ඝ පරිණත කිරීමකින් තොරව. ආසවනයෙන් පසු, මධ්‍යසාරය වර්ණය ඉවත් කිරීමට සක්‍රීය අඟුරු හරහා පෙරන අතර බෝතල් කිරීමට පෙර කෙටි කාලයක් තිත්ත නොවන වානේ ටැංකි හෝ අඟුරු නොදැමූ බැරල් වල ගබඩා කරයි."
+      },
+      "history": {
+        "en": "White rum production follows the same historical trajectory as dark rum in Sri Lanka, rooted in the sugarcane industry. The lighter style has become increasingly common in the domestic market as a versatile base spirit.",
+        "si": "සුදු රම් නිෂ්පාදනය ශ්‍රී ලංකාවේ අඳුරු රම් වලට සමාන ඓතිහාසික මාර්ගයක් අනුගමනය කරයි, උක් කර්මාන්තයේ මුල් ඇත. සැහැල්ලු ශෛලිය බහුකාර්ය පාදක මධ්‍යසාරයක් ලෙස දේශීය වෙළඳපොළේ වැඩි වැඩියෙන් සුලභ වී ඇත."
+      },
+      "image": "/images/bottles/white-rum.jpg"
+    },
+    {
+      "id": "sri-lankan-grape-wine",
+      "slug": "sri-lankan-grape-wine",
+      "categoryId": "wine",
+      "name": { "en": "Sri Lankan Grape Wine", "si": "ශ්‍රී ලංකා මිදි වයින්" },
+      "abv": "10-13%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Grapes, sugar, yeast, sulfites",
+        "si": "මිදි, සීනි, යීස්ට්, සල්ෆයිට්"
+      },
+      "productionMethod": {
+        "en": "Sri Lankan grape wine production involves crushing grapes, fermenting the juice with selected yeast strains, and aging the wine for a period. Due to the tropical climate, grape varieties adapted to warmer conditions are used. Some producers supplement with imported grape concentrate to achieve desired flavor profiles.",
+        "si": "ශ්‍රී ලංකා මිදි වයින් නිෂ්පාදනයට මිදි මිරිකීම, තෝරාගත් යීස්ට් ප්‍රභේද සමඟ යුෂ පැසවීම සහ කාලයක් වයින් පරිණත කිරීම ඇතුළත් වේ. නිවර්තන දේශගුණය හේතුවෙන්, උණුසුම් තත්ත්වයන්ට අනුවර්තනය වූ මිදි ප්‍රභේද භාවිතා කරයි. සමහර නිෂ්පාදකයින් අපේක්ෂිත රස පැතිකඩ ලබා ගැනීමට ආනයනික මිදි සාන්ද්‍රණය සමඟ සම්පූර්ණ කරයි."
+      },
+      "history": {
+        "en": "Wine production in Sri Lanka is a relatively recent development compared to arrack and toddy production. While not traditionally a wine-producing region, several producers have established vineyards and winemaking operations, particularly using tropical fruit varieties alongside grapes.",
+        "si": "ශ්‍රී ලංකාවේ වයින් නිෂ්පාදනය අරක්කු සහ තල් නිෂ්පාදනයට සාපේක්ෂව සාපේක්ෂ වශයෙන් මෑත සංවර්ධනයකි. සාම්ප්‍රදායිකව වයින් නිෂ්පාදන කලාපයක් නොවුණත්, නිෂ්පාදකයින් කිහිප දෙනෙක් මිදි වතු සහ වයින් නිෂ්පාදන මෙහෙයුම් ස්ථාපනය කර ඇති අතර, විශේෂයෙන් මිදි සමඟ නිවර්තන පලතුරු ප්‍රභේද භාවිතා කරයි."
+      },
+      "image": "/images/bottles/sri-lankan-grape-wine.jpg"
+    },
+    {
+      "id": "cashew-wine",
+      "slug": "cashew-wine",
+      "categoryId": "wine",
+      "name": { "en": "Cashew Wine", "si": "කජු වයින්" },
+      "abv": "8-12%",
+      "origin": { "en": "Sri Lanka", "si": "ශ්‍රී ලංකාව" },
+      "ingredients": {
+        "en": "Cashew apple juice, sugar, yeast",
+        "si": "කජු ඇපල් යුෂ, සීනි, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Cashew wine is produced by extracting juice from the cashew apple — the fleshy fruit attached to the cashew nut. The juice is strained, treated to reduce tannin content, mixed with sugar, and fermented with selected yeast. After fermentation, the wine is clarified and may be aged briefly before bottling.",
+        "si": "කජු වයින් කජු ඇපල් එකෙන් — කජු ගෙඩියට සම්බන්ධ මස් සහිත පලතුරෙන් — යුෂ උකහා ගැනීමෙන් නිෂ්පාදනය කරයි. යුෂ පෙරා, ටැනින් ප්‍රමාණය අඩු කිරීමට සැකසීම, සීනි සමඟ මිශ්‍ර කිරීම සහ තෝරාගත් යීස්ට් සමඟ පැසවීම සිදු කරයි. පැසවීමෙන් පසු, වයින් පැහැදිලි කරන අතර බෝතල් කිරීමට පෙර කෙටි කාලයක් පරිණත කළ හැකිය."
+      },
+      "history": {
+        "en": "Cashew wine production has traditional roots in Sri Lanka's coastal regions where cashew trees grow. The practice of fermenting cashew apple juice is found across tropical regions worldwide where cashew is cultivated. In Sri Lanka, small-scale production has continued alongside the more commercially prominent arrack industry.",
+        "si": "කජු වයින් නිෂ්පාදනයට කජු ගස් වැඩෙන ශ්‍රී ලංකාවේ වෙරළබඩ ප්‍රදේශවල සම්ප්‍රදායික මුල් ඇත. කජු ඇපල් යුෂ පැසවීමේ පිළිවෙත කජු වගා කරන ලොව පුරා නිවර්තන ප්‍රදේශවල දක්නට ලැබේ. ශ්‍රී ලංකාවේ, වඩාත් වාණිජමය වශයෙන් ප්‍රමුඛ අරක්කු කර්මාන්තය සමඟ කුඩා පරිමාණ නිෂ්පාදනය දිගටම පවතී."
+      },
+      "image": ""
+    },
+    {
+      "id": "johnnie-walker-black-label",
+      "slug": "johnnie-walker-black-label",
+      "categoryId": "whisky",
+      "name": { "en": "Johnnie Walker Black Label", "si": "ජොනී වෝකර් බ්ලැක් ලේබල්" },
+      "abv": "40%",
+      "origin": { "en": "Scotland", "si": "ස්කොට්ලන්තය" },
+      "ingredients": { "en": "Malted barley, grain whisky, water", "si": "මෝල්ට් කළ බාර්ලි, ධාන්‍ය විස්කි, ජලය" },
+      "productionMethod": { "en": "Johnnie Walker Black Label is a blended Scotch whisky consisting of whiskies aged for a minimum of 12 years. The blend draws from distilleries across Scotland's whisky-producing regions. Individual whiskies are matured in oak casks before being blended and married in oak for further harmonization.", "si": "ජොනී වෝකර් බ්ලැක් ලේබල් අවම වශයෙන් අවුරුදු 12ක් පරිණත කළ විස්කි වලින් සමන්විත මිශ්‍ර ස්කොච් විස්කියකි. ස්කොට්ලන්තයේ විස්කි නිෂ්පාදන කලාප හරහා ආසවනාගාර වලින් මිශ්‍රණය ලබා ගනී." },
+      "history": { "en": "The Johnnie Walker brand originated with John Walker, who began selling whisky in his grocery shop in Kilmarnock, Scotland, in 1820. The Black Label blend was introduced in 1909 as part of a rebranding effort. The brand has since become one of the most widely distributed Scotch whiskies globally.", "si": "ජොනී වෝකර් වෙළඳ නාමය 1820 දී ස්කොට්ලන්තයේ කිල්මාර්නොක්හි තම සිල්ලර වෙළඳසැලේ විස්කි විකිණීම ආරම්භ කළ ජෝන් වෝකර් සමඟ ආරම්භ විය. බ්ලැක් ලේබල් මිශ්‍රණය 1909 දී නැවත වෙළඳ නාමකරණ ප්‍රයත්නයක කොටසක් ලෙස හඳුන්වා දෙන ලදී." },
+      "image": ""
+    },
+    {
+      "id": "jameson-irish-whiskey",
+      "slug": "jameson-irish-whiskey",
+      "categoryId": "whisky",
+      "name": { "en": "Jameson Irish Whiskey", "si": "ජේම්සන් අයිරිෂ් විස්කි" },
+      "abv": "40%",
+      "origin": { "en": "Ireland", "si": "අයර්ලන්තය" },
+      "ingredients": { "en": "Malted and unmalted barley, maize, water", "si": "මෝල්ට් කළ සහ මෝල්ට් නොකළ බාර්ලි, බඩ ඉරිඟු, ජලය" },
+      "productionMethod": { "en": "Jameson is a blended Irish whiskey produced through triple distillation of pot still whiskey and grain whiskey. The triple distillation process, characteristic of Irish whiskey production, is conducted in copper pot stills. The whiskey is then aged in a combination of seasoned oak barrels.", "si": "ජේම්සන් යනු පොට් ස්ටිල් විස්කි සහ ධාන්‍ය විස්කි තුන් වාරයක් ආසවනය කිරීමෙන් නිෂ්පාදනය කරන මිශ්‍ර අයිරිෂ් විස්කියකි. අයිරිෂ් විස්කි නිෂ්පාදනයේ ලක්ෂණයක් වන තුන් වාර ආසවන ක්‍රියාවලිය තඹ පොට් ස්ටිල් වලින් සිදු කරයි." },
+      "history": { "en": "Jameson was founded in 1780 by John Jameson at the Bow Street Distillery in Dublin, Ireland. It is one of the oldest whiskey brands in continuous production. The distillery relocated to Midleton, County Cork, in 1975, where production continues today.", "si": "ජේම්සන් 1780 දී අයර්ලන්තයේ ඩබ්ලින්හි බෝ ස්ට්‍රීට් ආසවනාගාරයේ ජෝන් ජේම්සන් විසින් ආරම්භ කරන ලදී. එය අඛණ්ඩ නිෂ්පාදනයේ පැරණිතම විස්කි වෙළඳ නාම වලින් එකකි." },
+      "image": ""
+    },
+    {
+      "id": "yamazaki-12",
+      "slug": "yamazaki-12",
+      "categoryId": "whisky",
+      "name": { "en": "Yamazaki 12 Year Old", "si": "යමසාකි 12 අවුරුදු" },
+      "abv": "43%",
+      "origin": { "en": "Japan", "si": "ජපානය" },
+      "ingredients": { "en": "Malted barley, water from the Yamazaki region", "si": "මෝල්ට් කළ බාර්ලි, යමසාකි ප්‍රදේශයේ ජලය" },
+      "productionMethod": { "en": "Yamazaki 12 is a single malt whisky produced at the Yamazaki Distillery near Kyoto. The distillery uses multiple still shapes and fermentation methods to create diverse spirit characters. The whisky is aged for a minimum of 12 years in a combination of American, Spanish, and Japanese oak casks.", "si": "යමසාකි 12 යනු ක්‍යෝටෝ අසල යමසාකි ආසවනාගාරයේ නිෂ්පාදනය කරන තනි මෝල්ට් විස්කියකි. ආසවනාගාරය විවිධ ස්ටිල් හැඩතල සහ පැසවීමේ ක්‍රම භාවිතා කරයි. විස්කිය අමෙරිකානු, ස්පාඤ්ඤ සහ ජපන් ඕක් බැරල් සංයෝජනයක අවම වශයෙන් අවුරුදු 12ක් පරිණත කරයි." },
+      "history": { "en": "The Yamazaki Distillery was established in 1923 by Shinjiro Torii, making it Japan's first commercial whisky distillery. The location was chosen for its climate and water quality at the confluence of three rivers near Kyoto. Yamazaki 12 was introduced in 1984 and helped establish Japanese whisky on the international stage.", "si": "යමසාකි ආසවනාගාරය 1923 දී ෂින්ජිරෝ ටෝරි විසින් ස්ථාපිත කරන ලද අතර, එය ජපානයේ පළමු වාණිජ විස්කි ආසවනාගාරය බවට පත් විය. යමසාකි 12 1984 දී හඳුන්වා දෙන ලද අතර ජාත්‍යන්තර වේදිකාවේ ජපන් විස්කි ස්ථාපිත කිරීමට උපකාර විය." },
+      "image": ""
+    },
+    {
+      "id": "guinness-draught",
+      "slug": "guinness-draught",
+      "categoryId": "stout",
+      "name": { "en": "Guinness Draught", "si": "ගිනස් ඩ්‍රාෆ්ට්" },
+      "abv": "4.2%",
+      "origin": { "en": "Ireland", "si": "අයර්ලන්තය" },
+      "ingredients": { "en": "Water, barley, roasted barley, hops, yeast", "si": "ජලය, බාර්ලි, බැදපු බාර්ලි, හොප්ස්, යීස්ට්" },
+      "productionMethod": { "en": "Guinness Draught is brewed using a combination of malted and roasted unmalted barley. The roasted barley gives the beer its characteristic dark color. The beer undergoes fermentation with a proprietary yeast strain, followed by conditioning. Nitrogen gas is used during dispensing to create a dense, creamy head.", "si": "ගිනස් ඩ්‍රාෆ්ට් මෝල්ට් කළ සහ බැදපු මෝල්ට් නොකළ බාර්ලි සංයෝජනයක් භාවිතයෙන් පිසීම සිදු කරයි. බැදපු බාර්ලි බියර් එහි සුවිශේෂ අඳුරු වර්ණය ලබා දෙයි. නයිට්‍රජන් වායුව ඝන, ක්‍රීම් හිසක් නිර්මාණය කිරීමට භාවිතා කරයි." },
+      "history": { "en": "Guinness was first brewed by Arthur Guinness at the St. James's Gate Brewery in Dublin, Ireland, in 1759. Arthur Guinness signed a 9,000-year lease on the brewery. Guinness Draught, the nitrogen-dispensed variant, was introduced in 1959 to mark the brewery's 200th anniversary.", "si": "ගිනස් මුලින්ම 1759 දී අයර්ලන්තයේ ඩබ්ලින්හි ශාන්ත ජේම්ස් ගේට් බියර් කර්මාන්තශාලාවේ ආතර් ගිනස් විසින් පිසීම සිදු කරන ලදී. ආතර් ගිනස් කර්මාන්තශාලාව සඳහා වසර 9,000 ක බදු පත්‍රයක් අත්සන් කළේය." },
+      "image": ""
+    },
+    {
+      "id": "heineken-lager",
+      "slug": "heineken-lager",
+      "categoryId": "beer",
+      "name": { "en": "Heineken Lager", "si": "හයිනකන් ලේගර්" },
+      "abv": "5%",
+      "origin": { "en": "Netherlands", "si": "නෙදර්ලන්තය" },
+      "ingredients": { "en": "Water, malted barley, hops, Heineken A-yeast", "si": "ජලය, මෝල්ට් කළ බාර්ලි, හොප්ස්, හයිනකන් A-යීස්ට්" },
+      "productionMethod": { "en": "Heineken is brewed using a proprietary A-yeast strain developed by Dr. H. Elion in 1886. The brewing process follows standard lager methods: mashing, lautering, boiling with hops, cooling, and fermentation. The beer undergoes horizontal lagering for an extended period before filtration.", "si": "හයිනකන් 1886 දී ආචාර්ය H. එලියන් විසින් සංවර්ධනය කරන ලද හයිනකන් A-යීස්ට් ප්‍රභේදයක් භාවිතයෙන් පිසීම සිදු කරයි. පිසීමේ ක්‍රියාවලිය සම්මත ලේගර් ක්‍රම අනුගමනය කරයි." },
+      "history": { "en": "Heineken was founded in 1864 when Gerard Adriaan Heineken purchased the De Hooiberg brewery in Amsterdam. The company introduced its proprietary A-yeast in 1886, which remains in use today. Heineken is now produced in breweries across more than 70 countries.", "si": "හයිනකන් 1864 දී ජෙරාඩ් ඒඩ්‍රියන් හයිනකන් ඇම්ස්ටර්ඩෑම්හි ඩි හුයිබර්ග් බියර් කර්මාන්තශාලාව මිලදී ගත් විට ආරම්භ කරන ලදී. හයිනකන් දැන් රටවල් 70 කට වැඩි ප්‍රමාණයක කර්මාන්තශාලා වල නිෂ්පාදනය කරයි." },
+      "image": ""
+    },
+    {
+      "id": "corona-extra",
+      "slug": "corona-extra",
+      "categoryId": "beer",
+      "name": { "en": "Corona Extra", "si": "කොරෝනා එක්ස්ට්‍රා" },
+      "abv": "4.5%",
+      "origin": { "en": "Mexico", "si": "මෙක්සිකෝව" },
+      "ingredients": { "en": "Water, malted barley, corn, hops, yeast", "si": "ජලය, මෝල්ට් කළ බාර්ලි, බඩ ඉරිඟු, හොප්ස්, යීස්ට්" },
+      "productionMethod": { "en": "Corona Extra is a pale lager brewed with a combination of malted barley and corn as adjunct grain. The corn contributes to a lighter body and flavor profile. The beer is filtered and packaged in clear glass bottles, which is a distinguishing characteristic of the brand.", "si": "කොරෝනා එක්ස්ට්‍රා මෝල්ට් කළ බාර්ලි සහ බඩ ඉරිඟු සංයෝජනයකින් පිසූ සුදු ලේගර් එකකි. බඩ ඉරිඟු සැහැල්ලු ශරීරයකට සහ රස පැතිකඩකට දායක වේ." },
+      "history": { "en": "Corona Extra was first brewed in 1925 by Cervecería Modelo in Mexico City. It was initially produced for the domestic Mexican market. The brand began exporting to the United States in 1981 and subsequently expanded to international markets, becoming one of the most recognized beer brands worldwide.", "si": "කොරෝනා එක්ස්ට්‍රා මුලින්ම 1925 දී මෙක්සිකෝ නගරයේ සර්වසේරියා මොඩෙලෝ විසින් පිසීම සිදු කරන ලදී. එය මුලින් දේශීය මෙක්සිකානු වෙළඳපොළ සඳහා නිෂ්පාදනය කරන ලදී." },
+      "image": ""
+    },
+    {
+      "id": "moet-chandon-imperial",
+      "slug": "moet-chandon-imperial",
+      "categoryId": "wine",
+      "name": { "en": "Moët & Chandon Impérial", "si": "මොඑට් ඇන්ඩ් ෂැන්ඩන් ඉම්පේරියල්" },
+      "abv": "12%",
+      "origin": { "en": "France", "si": "ප්‍රංශය" },
+      "ingredients": { "en": "Pinot Noir, Chardonnay, Pinot Meunier grapes", "si": "පිනෝ නුවාර්, ෂාර්ඩනේ, පිනෝ මියුනියර් මිදි" },
+      "productionMethod": { "en": "Moët Impérial is produced using the traditional method (méthode champenoise). Grapes are pressed, and the juice undergoes primary fermentation. The base wines are blended and a secondary fermentation occurs in the bottle through the addition of yeast and sugar. The bottles are aged on lees before disgorgement.", "si": "මොඑට් ඉම්පේරියල් සාම්ප්‍රදායික ක්‍රමය (méthode champenoise) භාවිතයෙන් නිෂ්පාදනය කරයි. මිදි මිරිකා යුෂ ප්‍රාථමික පැසවීමකට භාජනය වේ. පාදක වයින් මිශ්‍ර කර යීස්ට් සහ සීනි එකතු කිරීමෙන් බෝතලයේ ද්විතීයික පැසවීමක් සිදු වේ." },
+      "history": { "en": "Moët & Chandon was established in 1743 by Claude Moët in Épernay, in the Champagne region of France. The Impérial brut was created in 1869 to honor Napoleon Bonaparte, a known patron of the house. It is one of the most widely produced champagnes in the world.", "si": "මොඑට් ඇන්ඩ් ෂැන්ඩන් 1743 දී ප්‍රංශයේ ෂැම්පේන් කලාපයේ එපර්නේ හි ක්ලෝඩ් මොඑට් විසින් ස්ථාපිත කරන ලදී. ඉම්පේරියල් බෘට් 1869 දී නැපෝලියන් බොනපාට්ට ගෞරව කිරීමට නිර්මාණය කරන ලදී." },
+      "image": ""
+    },
+    {
+      "id": "barefoot-cellars-red",
+      "slug": "barefoot-cellars-red",
+      "categoryId": "wine",
+      "name": { "en": "Barefoot Cellars Red Blend", "si": "බෙයාෆුට් සෙලාර්ස් රතු මිශ්‍රණය" },
+      "abv": "13.5%",
+      "origin": { "en": "United States", "si": "එක්සත් ජනපදය" },
+      "ingredients": { "en": "Red grape varietals blend, sulfites", "si": "රතු මිදි ප්‍රභේද මිශ්‍රණය, සල්ෆයිට්" },
+      "productionMethod": { "en": "Barefoot Red Blend is produced by blending multiple red grape varietals sourced from vineyards across California. The grapes are crushed, fermented in temperature-controlled tanks, and the resulting wines are blended to achieve a consistent flavor profile before bottling.", "si": "බෙයාෆුට් රතු මිශ්‍රණය කැලිෆෝනියාව පුරා මිදි වතු වලින් ලබාගත් බහු රතු මිදි ප්‍රභේද මිශ්‍ර කිරීමෙන් නිෂ්පාදනය කරයි. මිදි මිරිකා, උෂ්ණත්ව-පාලිත ටැංකි වල පැසවා, බෝතල් කිරීමට පෙර ස්ථාවර රස පැතිකඩක් ලබා ගැනීමට මිශ්‍ර කරයි." },
+      "history": { "en": "Barefoot Cellars was founded in 1986 by Michael Houlihan and Bonnie Harvey in California. The brand was named after its founders' practice of stomping grapes barefoot during small-batch production. It has grown to become one of the largest-selling wine brands in the United States.", "si": "බෙයාෆුට් සෙලාර්ස් 1986 දී කැලිෆෝනියාවේ මයිකල් හූලිහන් සහ බොනී හාවි විසින් ආරම්භ කරන ලදී. එය එක්සත් ජනපදයේ වැඩිපුරම අලෙවි වන වයින් වෙළඳ නාම වලින් එකක් බවට පත්ව ඇත." },
+      "image": ""
+    },
+    {
+      "id": "bacardi-superior",
+      "slug": "bacardi-superior",
+      "categoryId": "rum",
+      "name": { "en": "Bacardi Superior", "si": "බකාඩි සුපීරියර්" },
+      "abv": "40%",
+      "origin": { "en": "Puerto Rico", "si": "පුවර්ටෝ රිකෝ" },
+      "ingredients": { "en": "Sugarcane molasses, water, proprietary yeast", "si": "උක් මොලැසිස්, ජලය, හිමිකාර යීස්ට්" },
+      "productionMethod": { "en": "Bacardi Superior is a white rum produced through fermentation of sugarcane molasses with a proprietary yeast strain. The fermented wash is distilled in column stills. The resulting spirit is aged for one to two years in oak barrels and then filtered through charcoal to remove color.", "si": "බකාඩි සුපීරියර් හිමිකාර යීස්ට් ප්‍රභේදයක් සමඟ උක් මොලැසිස් පැසවීමෙන් නිෂ්පාදනය කරන සුදු රම් එකකි. පැසවූ සේදීම තීරු ආසවන යන්ත්‍ර වලින් ආසවනය කරයි. ලැබෙන මධ්‍යසාරය ඕක් බැරල් වල අවුරුදු එකක් හෝ දෙකක් පරිණත කර වර්ණය ඉවත් කිරීමට අඟුරු හරහා පෙරයි." },
+      "history": { "en": "Bacardi was founded in 1862 by Don Facundo Bacardí Massó in Santiago de Cuba. The company developed its light-bodied rum style through charcoal filtration, distinguishing it from heavier rums of the era. Production relocated to Puerto Rico following the Cuban Revolution in 1959.", "si": "බකාඩි 1862 දී සැන්ටියාගෝ ඩි කියුබා හි ඩොන් ෆකුන්ඩෝ බකාර්ඩි මස්සෝ විසින් ආරම්භ කරන ලදී. 1959 කියුබානු විප්ලවයෙන් පසු නිෂ්පාදනය පුවර්ටෝ රිකෝවට ස්ථාන මාරු විය." },
+      "image": ""
+    },
+    {
+      "id": "captain-morgan-original",
+      "slug": "captain-morgan-original",
+      "categoryId": "rum",
+      "name": { "en": "Captain Morgan Original", "si": "කැප්ටන් මෝගන් ඔරිජිනල්" },
+      "abv": "35%",
+      "origin": { "en": "Jamaica", "si": "ජැමෙයිකාව" },
+      "ingredients": { "en": "Sugarcane molasses, spices, water, yeast", "si": "උක් මොලැසිස්, කුළුබඩු, ජලය, යීස්ට්" },
+      "productionMethod": { "en": "Captain Morgan Original is a spiced rum produced by blending rum distilled from sugarcane molasses with a selection of spices and natural flavors. The rum base is aged in oak barrels before the spice blend is added. The final product is filtered and adjusted to bottling strength.", "si": "කැප්ටන් මෝගන් ඔරිජිනල් උක් මොලැසිස් වලින් ආසවනය කළ රම් කුළුබඩු සහ ස්වාභාවික රස තෝරාගැනීමක් සමඟ මිශ්‍ර කිරීමෙන් නිෂ්පාදනය කරන කුළුබඩු රම් එකකි. කුළුබඩු මිශ්‍රණය එකතු කිරීමට පෙර රම් පාදකය ඕක් බැරල් වල පරිණත කරයි." },
+      "history": { "en": "Captain Morgan was introduced in 1944 by the Seagram company. The brand is named after Sir Henry Morgan, a 17th-century Welsh privateer who operated in the Caribbean. The rum was originally produced in Jamaica using local distillation methods.", "si": "කැප්ටන් මෝගන් 1944 දී සීග්‍රෑම් සමාගම විසින් හඳුන්වා දෙන ලදී. වෙළඳ නාමය කැරිබියන් කලාපයේ ක්‍රියාත්මක වූ 17 වන සියවසේ වේල්ෂ් ප්‍රයිවේටියර් ශ්‍රිමත් හෙන්රි මෝගන් ගේ නමින් නම් කර ඇත." },
+      "image": ""
+    },
+    {
+      "id": "absolut-vodka",
+      "slug": "absolut-vodka",
+      "categoryId": "vodka",
+      "name": { "en": "Absolut Vodka", "si": "ඇබ්සලූට් වොඩ්කා" },
+      "abv": "40%",
+      "origin": { "en": "Sweden", "si": "ස්වීඩනය" },
+      "ingredients": { "en": "Winter wheat, water", "si": "ශීත ඍතු තිරිඟු, ජලය" },
+      "productionMethod": { "en": "Absolut Vodka is produced through continuous distillation of winter wheat grown in southern Sweden. The process involves an infinite number of distillation cycles rather than a set number. The water is sourced from a deep well in Åhus, Sweden, and is naturally filtered through Swedish rock.", "si": "ඇබ්සලූට් වොඩ්කා දකුණු ස්වීඩනයේ වගා කරන ශීත ඍතු තිරිඟු අඛණ්ඩ ආසවනය මගින් නිෂ්පාදනය කරයි. ක්‍රියාවලියට නියම සංඛ්‍යාවකට වඩා අනන්ත ආසවන චක්‍ර ඇතුළත් වේ. ජලය ස්වීඩනයේ ඕහුස්හි ගැඹුරු ළිඳකින් ලබා ගනී." },
+      "history": { "en": "Absolut traces its origins to 1879 when Lars Olsson Smith introduced continuous distillation in Sweden. The modern brand was launched in 1979 for the American market with a distinctive apothecary-style bottle designed by Gunnar Broman. It is produced in Åhus, Sweden.", "si": "ඇබ්සලූට් එහි මූලාරම්භය 1879 දක්වා ලුහුබඳින අතර, ලාර්ස් ඔල්සන් ස්මිත් ස්වීඩනයේ අඛණ්ඩ ආසවනය හඳුන්වා දුන්නේය. නවීන වෙළඳ නාමය 1979 දී ඇමරිකානු වෙළඳපොළ සඳහා දියත් කරන ලදී." },
+      "image": ""
+    },
+    {
+      "id": "smirnoff-no-21",
+      "slug": "smirnoff-no-21",
+      "categoryId": "vodka",
+      "name": { "en": "Smirnoff No. 21", "si": "ස්මිර්නොෆ් අංක 21" },
+      "abv": "40%",
+      "origin": { "en": "Russia / United Kingdom", "si": "රුසියාව / එක්සත් රාජධානිය" },
+      "ingredients": { "en": "Grain, water", "si": "ධාන්‍ය, ජලය" },
+      "productionMethod": { "en": "Smirnoff No. 21 is produced through triple distillation followed by ten-stage filtration through activated charcoal. The grain-based spirit is distilled to a high proof before dilution. The charcoal filtration process removes impurities and contributes to the neutral flavor profile.", "si": "ස්මිර්නොෆ් අංක 21 තුන් වාර ආසවනයකින් පසුව සක්‍රීය අඟුරු හරහා දස-අදියර පෙරීමකින් නිෂ්පාදනය කරයි. ධාන්‍ය-පාදක මධ්‍යසාරය මිශ්‍ර කිරීමට පෙර ඉහළ සාධනයකට ආසවනය කරයි." },
+      "history": { "en": "Smirnoff originated in Moscow in 1864, founded by Pyotr Arsenievich Smirnov. Following the Russian Revolution, the brand was re-established outside Russia. Production rights were sold to Rudolph Kunett in 1934, and subsequently to Heublein Inc. It is now one of the most widely sold vodka brands globally.", "si": "ස්මිර්නොෆ් 1864 දී මොස්කව්හි ප්‍යොට්ර් ආර්සෙනියෙවිච් ස්මිර්නොව් විසින් ආරම්භ කරන ලදී. රුසියානු විප්ලවයෙන් පසු, වෙළඳ නාමය රුසියාවෙන් පිටත නැවත ස්ථාපිත කරන ලදී." },
+      "image": ""
+    },
+    {
+      "id": "tanqueray-london-dry",
+      "slug": "tanqueray-london-dry",
+      "categoryId": "gin",
+      "name": { "en": "Tanqueray London Dry Gin", "si": "ටැන්කරේ ලන්ඩන් ඩ්‍රයි ජින්" },
+      "abv": "43.1%",
+      "origin": { "en": "England", "si": "එංගලන්තය" },
+      "ingredients": { "en": "Grain spirit, juniper berries, coriander, angelica root, liquorice", "si": "ධාන්‍ය මධ්‍යසාරය, ජුනිපර් බෙරි, කොත්තමල්ලි, ඇන්ජෙලිකා මුල්, වැල්මී" },
+      "productionMethod": { "en": "Tanqueray is produced through a four-stage distillation process. A neutral grain spirit is redistilled with botanicals including juniper, coriander, angelica root, and liquorice. The botanicals are added directly to the still, and the spirit is distilled to extract their flavors. The exact recipe uses only four botanicals, fewer than most gins.", "si": "ටැන්කරේ සිව්-අදියර ආසවන ක්‍රියාවලියක් හරහා නිෂ්පාදනය කරයි. මධ්‍යස්ථ ධාන්‍ය මධ්‍යසාරයක් ජුනිපර්, කොත්තමල්ලි, ඇන්ජෙලිකා මුල් සහ වැල්මී ඇතුළු ශාක ද්‍රව්‍ය සමඟ නැවත ආසවනය කරයි." },
+      "history": { "en": "Tanqueray was first distilled in 1830 by Charles Tanqueray in Bloomsbury, London. The original distillery was largely destroyed during the Blitz in World War II, though the original copper still survived. Production was relocated to Cameronbridge, Scotland. The recipe has remained largely unchanged since its creation.", "si": "ටැන්කරේ මුලින්ම 1830 දී ලන්ඩනයේ බ්ලූම්ස්බරි හි චාල්ස් ටැන්කරේ විසින් ආසවනය කරන ලදී. මුල් ආසවනාගාරය දෙවන ලෝක යුද්ධයේදී බ්ලිට්ස් අතරතුර බොහෝ දුරට විනාශ විය, නමුත් මුල් තඹ ස්ටිල් එක නොනැසී පැවතුණි." },
+      "image": ""
+    },
+    {
+      "id": "bombay-sapphire",
+      "slug": "bombay-sapphire",
+      "categoryId": "gin",
+      "name": { "en": "Bombay Sapphire", "si": "බොම්බේ සැෆයර්" },
+      "abv": "40%",
+      "origin": { "en": "England", "si": "එංගලන්තය" },
+      "ingredients": { "en": "Grain spirit, juniper berries, lemon peel, coriander, angelica root, orris root, grains of paradise, cubeb berries, cassia bark, almonds, liquorice", "si": "ධාන්‍ය මධ්‍යසාරය, ජුනිපර් බෙරි, ලෙමන්껍ල්, කොත්තමල්ලි, ඇන්ජෙලිකා මුල්, ඔරිස් මුල්, ග්‍රේන්ස් ඔෆ් පැරඩයිස්, කියුබෙබ් බෙරි, කැසියා පොතු, බාදම්, වැල්මී" },
+      "productionMethod": { "en": "Bombay Sapphire is produced using vapour infusion rather than direct botanical steeping. A neutral grain spirit is heated, and the vapour passes through a copper basket containing ten botanicals suspended above the still. This gentler extraction method produces a lighter flavor profile compared to traditional steeping methods.", "si": "බොම්බේ සැෆයර් සෘජු ශාක ද්‍රව්‍ය ගිල්වීම වෙනුවට වාෂ්ප ආවේශනය භාවිතයෙන් නිෂ්පාදනය කරයි. මධ්‍යස්ථ ධාන්‍ය මධ්‍යසාරයක් රත් කරන අතර, වාෂ්පය ස්ටිල් එකට ඉහළින් එල්ලා ඇති ශාක ද්‍රව්‍ය දහයක් අඩංගු තඹ කූඩයක් හරහා ගමන් කරයි." },
+      "history": { "en": "Bombay Sapphire was launched in 1987, though the brand claims its recipe dates to 1761. The gin is named after the popularity of gin in India during the British Raj. Production takes place at the Laverstoke Mill distillery in Hampshire, England, a facility that was redesigned by Thomas Heatherwick.", "si": "බොම්බේ සැෆයර් 1987 දී දියත් කරන ලද නමුත්, වෙළඳ නාමය එහි වට්ටෝරුව 1761 දක්වා ගමන් කරන බව ප්‍රකාශ කරයි. බ්‍රිතාන්‍ය රාජ් සමයේ ඉන්දියාවේ ජින් ජනප්‍රියත්වය අනුව ජින් නම් කර ඇත." },
+      "image": ""
+    }
+  ]
+}
