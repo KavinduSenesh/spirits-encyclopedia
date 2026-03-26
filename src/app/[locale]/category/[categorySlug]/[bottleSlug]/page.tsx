@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import { notFound } from 'next/navigation';
@@ -89,12 +90,30 @@ export default function BottlePage({
               <Link
                 key={rel.id}
                 href={`/category/${rel.categoryId}/${rel.slug}`}
-                className="bg-bg-card/60 border border-border-amber rounded-lg p-5 hover:border-amber/20 hover:-translate-y-0.5 transition-all duration-300"
+                className="group bg-bg-card/60 border border-border-amber rounded-lg overflow-hidden hover:border-amber/20 hover:-translate-y-0.5 transition-all duration-300"
               >
-                <p className="text-text-primary text-sm font-normal">
-                  {rel.name[loc]}
-                </p>
-                <p className="text-amber text-[12px] mt-1">{rel.abv}</p>
+                {rel.image && (
+                  <div className="relative h-[140px] overflow-hidden bg-bg-elevated">
+                    <div
+                      className="absolute inset-0 opacity-40"
+                      style={{ background: 'radial-gradient(ellipse at 50% 60%, rgba(200,149,108,0.12) 0%, transparent 60%)' }}
+                    />
+                    <Image
+                      src={rel.image}
+                      alt={rel.name[loc]}
+                      fill
+                      className="object-contain p-4 drop-shadow-[0_4px_16px_rgba(200,149,108,0.1)] transition-transform duration-500 group-hover:scale-105"
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                    />
+                    <div className="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-bg-card to-transparent" />
+                  </div>
+                )}
+                <div className="p-4">
+                  <p className="text-text-primary text-sm font-normal">
+                    {rel.name[loc]}
+                  </p>
+                  <p className="text-amber text-[12px] mt-1">{rel.abv}</p>
+                </div>
               </Link>
             ))}
           </div>

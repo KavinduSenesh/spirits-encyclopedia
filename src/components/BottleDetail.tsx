@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import type { Bottle } from '@/lib/data';
 
@@ -18,6 +19,36 @@ export default function BottleDetail({
 
   return (
     <article className="mx-auto max-w-4xl">
+      {/* Hero image with spotlight */}
+      {bottle.image && (
+        <div className="relative h-[450px] rounded-2xl overflow-hidden mb-10 bg-bg-elevated">
+          {/* Ambient spotlight */}
+          <div
+            className="absolute inset-0"
+            style={{
+              background: `
+                radial-gradient(ellipse at 50% 70%, rgba(200,149,108,0.12) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 30%, rgba(200,149,108,0.06) 0%, transparent 40%)
+              `,
+            }}
+          />
+          {/* Reflection surface */}
+          <div className="absolute bottom-0 inset-x-0 h-1/3 bg-gradient-to-t from-amber/[0.04] to-transparent" />
+          <Image
+            src={bottle.image}
+            alt={bottle.name[locale]}
+            fill
+            className="object-contain p-6 drop-shadow-[0_12px_32px_rgba(200,149,108,0.15)] scale-110"
+            sizes="(max-width: 896px) 100vw, 896px"
+            priority
+          />
+          {/* Top and bottom vignette */}
+          <div className="absolute inset-0 pointer-events-none" style={{
+            background: 'linear-gradient(to bottom, rgba(13,17,23,0.3) 0%, transparent 20%, transparent 85%, rgba(13,17,23,0.5) 100%)',
+          }} />
+        </div>
+      )}
+
       <h1 className="text-text-primary text-[36px] font-extralight">
         {bottle.name[locale]}
       </h1>
