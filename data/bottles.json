@@ -185,34 +185,7 @@
         "en": "Lion Brewery was established in 1881 in Nuwara Eliya, making it one of the oldest breweries in South Asia. The brewery was initially set up to serve the British colonial community. It has since become one of the primary beer producers in Sri Lanka, with the brewery now located in Biyagama.",
         "si": "ලයන් බියර් කර්මාන්තශාලාව 1881 දී නුවරඑළියේ පිහිටුවන ලද අතර, එය දකුණු ආසියාවේ පැරණිතම බියර් කර්මාන්තශාලාවන්ගෙන් එකක් බවට පත් විය. කර්මාන්තශාලාව මුලින් ස්ථාපිත කරන ලද්දේ බ්‍රිතාන්‍ය යටත් විජිත ප්‍රජාවට සේවය කිරීම සඳහාය. එය තැන් සිට ශ්‍රී ලංකාවේ ප්‍රාථමික බියර් නිෂ්පාදකයින්ගෙන් එකක් බවට පත්ව ඇති අතර, කර්මාන්තශාලාව දැන් බියගම පිහිටා ඇත."
       },
-      "image": "/images/bottles/beer/lion-lager.jpg"
-    },
-    {
-      "id": "three-coins",
-      "slug": "three-coins",
-      "categoryId": "beer",
-      "name": {
-        "en": "Three Coins Pilsner",
-        "si": "ත්‍රී කොයින්ස් පිල්ස්නර්"
-      },
-      "abv": "4.8%",
-      "origin": {
-        "en": "Sri Lanka",
-        "si": "ශ්‍රී ලංකාව"
-      },
-      "ingredients": {
-        "en": "Water, malted barley, hops, yeast",
-        "si": "ජලය, මෝල්ට් කළ බාර්ලි, හොප්ස්, යීස්ට්"
-      },
-      "productionMethod": {
-        "en": "Three Coins is brewed as a pilsner-style lager. The brewing process involves mashing malted barley, boiling with Saaz or similar hop varieties for bitterness and aroma, followed by fermentation with bottom-fermenting yeast and extended cold conditioning.",
-        "si": "ත්‍රී කොයින්ස් පිල්ස්නර් ශෛලීය ලේගර් ලෙස පිසීම සිදු කරයි. මෝල්ට් කළ බාර්ලි මැෂ් කිරීම, තිත්ත බව සහ සුවඳ සඳහා Saaz හෝ සමාන හොප් ප්‍රභේද සමඟ තම්බීම, පහළ-පැසවීමේ යීස්ට් සමඟ පැසවීම සහ දීර්ඝ සීත කන්ඩිෂනින් ඇතුළත් වේ."
-      },
-      "history": {
-        "en": "Three Coins has been produced in Sri Lanka since the mid-20th century. It is brewed by McCallum Breweries, which operates under the broader Sri Lankan beverage industry. The pilsner style reflects European brewing traditions adapted for the Sri Lankan market.",
-        "si": "ත්‍රී කොයින්ස් 20 වන සියවසේ මැද භාගයේ සිට ශ්‍රී ලංකාවේ නිෂ්පාදනය කර ඇත. එය McCallum Breweries විසින් පිසීම සිදු කරන අතර, එය පුළුල් ශ්‍රී ලංකා පාන කර්මාන්තය යටතේ ක්‍රියාත්මක වේ. පිල්ස්නර් ශෛලිය ශ්‍රී ලංකා වෙළඳපොළ සඳහා අනුවර්තනය කරන ලද යුරෝපීය පිසීමේ සම්ප්‍රදායන් පිළිබිඹු කරයි."
-      },
-      "image": "/images/bottles/beer/three-coins.jpg"
+      "image": "/images/bottles/beer/Lion-Lager.png"
     },
     {
       "id": "lion-stout",
@@ -266,7 +239,7 @@
         "en": "Rockland is a brand produced under the Sri Lankan spirits industry, part of a range of domestically produced spirits that cater to the local market. The gin category in Sri Lanka reflects both colonial-era influences and modern production techniques.",
         "si": "රොක්ලන්ඩ් ශ්‍රී ලංකා මධ්‍යසාර කර්මාන්තය යටතේ නිෂ්පාදිත වෙළඳ නාමයකි, දේශීය වෙළඳපොළට සේවය කරන දේශීය වශයෙන් නිෂ්පාදිත මධ්‍යසාර පරාසයක කොටසකි. ශ්‍රී ලංකාවේ ජින් කාණ්ඩය යටත් විජිත යුගයේ බලපෑම් සහ නවීන නිෂ්පාදන ශිල්පීය ක්‍රම දෙකම පිළිබිඹු කරයි."
       },
-      "image": "/images/bottles/gin/rockland-gin.jpg"
+      "image": "/images/bottles/gin/Rockland-Dry-Gin.png"
     },
     {
       "id": "mendis-vodka",
@@ -455,7 +428,7 @@
         "en": "The Johnnie Walker brand originated with John Walker, who began selling whisky in his grocery shop in Kilmarnock, Scotland, in 1820. The Black Label blend was introduced in 1909 as part of a rebranding effort. The brand has since become one of the most widely distributed Scotch whiskies globally.",
         "si": "ජොනී වෝකර් වෙළඳ නාමය 1820 දී ස්කොට්ලන්තයේ කිල්මාර්නොක්හි තම සිල්ලර වෙළඳසැලේ විස්කි විකිණීම ආරම්භ කළ ජෝන් වෝකර් සමඟ ආරම්භ විය. බ්ලැක් ලේබල් මිශ්‍රණය 1909 දී නැවත වෙළඳ නාමකරණ ප්‍රයත්නයක කොටසක් ලෙස හඳුන්වා දෙන ලදී."
       },
-      "image": "/images/bottles/whisky/johnnie-walker-black-label.jpg"
+      "image": "/images/bottles/whisky/Johnnie-Walker-Black-Label-4.5-Litres.png"
     },
     {
       "id": "jameson-irish-whiskey",
@@ -482,7 +455,7 @@
         "en": "Jameson was founded in 1780 by John Jameson at the Bow Street Distillery in Dublin, Ireland. It is one of the oldest whiskey brands in continuous production. The distillery relocated to Midleton, County Cork, in 1975, where production continues today.",
         "si": "ජේම්සන් 1780 දී අයර්ලන්තයේ ඩබ්ලින්හි බෝ ස්ට්‍රීට් ආසවනාගාරයේ ජෝන් ජේම්සන් විසින් ආරම්භ කරන ලදී. එය අඛණ්ඩ නිෂ්පාදනයේ පැරණිතම විස්කි වෙළඳ නාම වලින් එකකි."
       },
-      "image": "/images/bottles/whisky/jameson-irish-whiskey.jpg"
+      "image": "/images/bottles/whisky/Jameson-Black-Barrel-with-Box.png"
     },
     {
       "id": "yamazaki-12",
@@ -512,6 +485,114 @@
       "image": "/images/bottles/whisky/yamazaki-12.jpg"
     },
     {
+      "id": "jack-daniels",
+      "slug": "jack-daniels",
+      "categoryId": "whisky",
+      "name": {
+        "en": "Jack Daniel's Old No. 7",
+        "si": "ජැක් ඩැනියෙල්ස් ඕල්ඩ් අංක 7"
+      },
+      "abv": "40%",
+      "origin": {
+        "en": "United States",
+        "si": "එක්සත් ජනපදය"
+      },
+      "ingredients": {
+        "en": "Corn (80%), barley malt, rye, water, yeast",
+        "si": "බඩ ඉරිඟු (80%), බාර්ලි මෝල්ට්, රයි, ජලය, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Jack Daniel's is produced using the Lincoln County Process, which distinguishes it from bourbon. After distillation, the whiskey is filtered drop by drop through 10 feet of sugar maple charcoal before being placed in new charred American white oak barrels for aging. The distillery uses a proprietary yeast strain and iron-free cave spring water from the Cave Spring Hollow in Lynchburg, Tennessee.",
+        "si": "ජැක් ඩැනියෙල්ස් ලින්කන් ප්‍රාන්ත ක්‍රියාවලිය භාවිතයෙන් නිෂ්පාදනය කරයි. ආසවනයෙන් පසු, විස්කි අඩි 10ක සීනි මේපල් අඟුරු හරහා බිංදුවෙන් බිංදුව පෙරා පසුව නව අඟුරු බැරල් වල පරිණත කිරීම සඳහා තබයි. ආසවනාගාරය ටෙනසී ලින්ච්බර්ග්හි ගුහා උල්පත් ජලය භාවිතා කරයි."
+      },
+      "history": {
+        "en": "Jack Daniel's was established by Jasper Newton 'Jack' Daniel in Lynchburg, Tennessee, in 1866, making it one of the oldest registered distilleries in the United States. The Old No. 7 designation has been used since the brand's early years, though the origin of the number remains disputed. The distillery was listed on the National Register of Historic Places in 1972. Jack Daniel's is currently the best-selling American whiskey worldwide.",
+        "si": "ජැක් ඩැනියෙල්ස් 1866 දී ටෙනසී ලින්ච්බර්ග්හි ජැස්පර් නිව්ටන් 'ජැක්' ඩැනියෙල් විසින් ස්ථාපිත කරන ලද අතර, එය එක්සත් ජනපදයේ පැරණිතම ලියාපදිංචි ආසවනාගාර වලින් එකකි. ආසවනාගාරය 1972 දී ජාතික ඓතිහාසික ස්ථාන ලේඛනයට ඇතුළත් කරන ලදී."
+      },
+      "image": "/images/bottles/whisky/Jack-Daniels.png"
+    },
+    {
+      "id": "chivas-regal-18",
+      "slug": "chivas-regal-18",
+      "categoryId": "whisky",
+      "name": {
+        "en": "Chivas Regal 18 Year Old",
+        "si": "චිවාස් රීගල් 18 අවුරුදු"
+      },
+      "abv": "40%",
+      "origin": {
+        "en": "Scotland",
+        "si": "ස්කොට්ලන්තය"
+      },
+      "ingredients": {
+        "en": "Malted barley, grain whisky, water",
+        "si": "මෝල්ට් කළ බාර්ලි, ග්‍රේන් විස්කි, ජලය"
+      },
+      "productionMethod": {
+        "en": "Chivas Regal 18 is a blended Scotch whisky composed of malt and grain whiskies, each aged for a minimum of 18 years. The blend is crafted by the Master Blender at the Strathisla Distillery in Keith, Speyside. The component whiskies are matured in a combination of American oak and European oak casks. After blending, the whisky undergoes a further period of marrying in oak casks to allow the flavors to integrate.",
+        "si": "චිවාස් රීගල් 18 අවම වශයෙන් අවුරුදු 18ක් පරිණත කළ මෝල්ට් සහ ග්‍රේන් විස්කි වලින් සමන්විත මිශ්‍ර ස්කොච් විස්කියකි. ස්පේසයිඩ් කීත්හි ස්ට්‍රැතිස්ලා ආසවනාගාරයේ මාස්ටර් බ්ලෙන්ඩර් විසින් මිශ්‍රණය සකස් කරයි. ඇමරිකානු ඕක් සහ යුරෝපීය ඕක් කැස්ක් සංයෝජනයකින් පරිණත කරයි."
+      },
+      "history": {
+        "en": "Chivas Regal was founded by brothers James and John Chivas in Aberdeen, Scotland, in 1801. The brand introduced its first blended Scotch in the 1850s. Chivas Regal 18 was created by Master Blender Colin Scott in 1997 as a luxury expression of the brand. The Strathisla Distillery, which serves as the home of Chivas Regal, is the oldest continuously operating distillery in the Scottish Highlands, established in 1786.",
+        "si": "චිවාස් රීගල් 1801 දී ස්කොට්ලන්තයේ ඇබර්ඩීන්හි ජේම්ස් සහ ජෝන් චිවාස් සහෝදරයන් විසින් පිහිටුවන ලදී. චිවාස් රීගල් 18 1997 දී මාස්ටර් බ්ලෙන්ඩර් කොලින් ස්කොට් විසින් නිර්මාණය කරන ලදී. ස්ට්‍රැතිස්ලා ආසවනාගාරය 1786 දී ස්ථාපිත කරන ලද ස්කොට්ලන්ත උස්බිම්වල පැරණිතම අඛණ්ඩව ක්‍රියාත්මක ආසවනාගාරයයි."
+      },
+      "image": "/images/bottles/whisky/Chivas-Regal-18-Years-Vivienne-Westwood.png"
+    },
+    {
+      "id": "vat-69",
+      "slug": "vat-69",
+      "categoryId": "whisky",
+      "name": {
+        "en": "VAT 69",
+        "si": "VAT 69"
+      },
+      "abv": "40%",
+      "origin": {
+        "en": "Scotland",
+        "si": "ස්කොට්ලන්තය"
+      },
+      "ingredients": {
+        "en": "Malted barley, grain whisky, water",
+        "si": "මෝල්ට් කළ බාර්ලි, ග්‍රේන් විස්කි, ජලය"
+      },
+      "productionMethod": {
+        "en": "VAT 69 is a blended Scotch whisky produced by combining malt whiskies from various Scottish distilleries with grain whisky. The blend is formulated to maintain a consistent flavor profile. The name refers to the specific vat number that was selected from 100 sample vatted whiskies during the original blending trials.",
+        "si": "VAT 69 විවිධ ස්කොට්ලන්ත ආසවනාගාර වලින් ලබාගත් මෝල්ට් විස්කි ග්‍රේන් විස්කි සමඟ ඒකාබද්ධ කිරීමෙන් නිෂ්පාදනය කරන මිශ්‍ර ස්කොච් විස්කියකි. මුල් මිශ්‍ර කිරීමේ අත්හදා බැලීම් වලදී නියැදි වැට් විස්කි 100 කින් තෝරාගත් නිශ්චිත වැට් අංකය එහි නමට යොමු වේ."
+      },
+      "history": {
+        "en": "VAT 69 was created in 1882 by William Sanderson in Leith, Scotland. Sanderson prepared 100 casks of blended whisky and invited a panel of experts to taste each one. The blend from vat number 69 was unanimously selected as the finest, giving the whisky its name. The brand has been produced continuously since then and is now owned by Diageo. VAT 69 has particular popularity in South Asian markets including India and Sri Lanka.",
+        "si": "VAT 69 1882 දී ස්කොට්ලන්තයේ ලීත්හි විලියම් සැන්ඩර්සන් විසින් නිර්මාණය කරන ලදී. සැන්ඩර්සන් මිශ්‍ර විස්කි කැස්ක් 100ක් සකස් කර විශේෂඥ මණ්ඩලයක් එක් එක් රස බැලීමට ආරාධනා කළේය. වැට් අංක 69 හි මිශ්‍රණය එකමුතුව උතුම්ම ලෙස තෝරා ගන්නා ලදී. VAT 69 ඉන්දියාව සහ ශ්‍රී ලංකාව ඇතුළු දකුණු ආසියානු වෙළඳපොළවල විශේෂ ජනප්‍රියත්වයක් ඇත."
+      },
+      "image": "/images/bottles/whisky/Vat-69.png"
+    },
+    {
+      "id": "glenfiddich-21",
+      "slug": "glenfiddich-21",
+      "categoryId": "whisky",
+      "name": {
+        "en": "Glenfiddich 21 Year Old",
+        "si": "ග්ලෙන්ෆිඩිච් 21 අවුරුදු"
+      },
+      "abv": "40%",
+      "origin": {
+        "en": "Scotland",
+        "si": "ස්කොට්ලන්තය"
+      },
+      "ingredients": {
+        "en": "Malted barley, water, yeast",
+        "si": "මෝල්ට් කළ බාර්ලි, ජලය, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Glenfiddich 21 Year Old (Reserva Rum Cask Finish) is a single malt Scotch whisky initially matured in American bourbon and European sherry oak casks for 21 years. It then undergoes a finishing period in Caribbean rum casks, which adds layers of toffee, banana, and warm spice to the whisky. The Malt Master selects and marries the finished casks before bottling. The rum cask finishing technique was pioneered by Glenfiddich.",
+        "si": "ග්ලෙන්ෆිඩිච් 21 අවුරුදු (රෙසර්වා රම් කැස්ක් ෆිනිෂ්) ඇමරිකානු බර්බන් සහ යුරෝපීය ෂෙරි ඕක් කැස්ක් වල අවුරුදු 21ක් පරිණත කළ සිංගල් මෝල්ට් ස්කොච් විස්කියකි. පසුව කැරිබියන් රම් කැස්ක් වල අවසන් පරිණත කිරීමේ කාලයකට භාජනය වේ. රම් කැස්ක් ෆිනිෂින් තාක්ෂණය ග්ලෙන්ෆිඩිච් විසින් ප්‍රවර්තනය කරන ලදී."
+      },
+      "history": {
+        "en": "Glenfiddich was founded in 1887 by William Grant in Dufftown, Speyside, Scotland. The name means 'Valley of the Deer' in Scottish Gaelic. In 1963, Glenfiddich became the first single malt Scotch to be actively promoted outside Scotland. The 21 Year Old expression was introduced with the Reserva Rum Cask Finish, making it one of the first single malts to use rum cask finishing. The distillery remains family-owned under William Grant & Sons.",
+        "si": "ග්ලෙන්ෆිඩිච් 1887 දී ස්කොට්ලන්තයේ ස්පේසයිඩ් ඩෆ්ටවුන් හි විලියම් ග්‍රාන්ට් විසින් පිහිටුවන ලදී. 1963 දී ස්කොට්ලන්තයෙන් පිටත ක්‍රියාකාරීව ප්‍රවර්ධනය කළ පළමු සිංගල් මෝල්ට් ස්කොච් බවට පත් විය. ආසවනාගාරය William Grant & Sons යටතේ පවුලේ අයිතිය යටතේ පවතී."
+      },
+      "image": "/images/bottles/rum/Glenfiddich-21-Years-with-Box.png"
+    },
+    {
       "id": "guinness-draught",
       "slug": "guinness-draught",
       "categoryId": "stout",
@@ -539,31 +620,31 @@
       "image": "/images/bottles/stout/guinness-draught.jpg"
     },
     {
-      "id": "heineken-lager",
-      "slug": "heineken-lager",
-      "categoryId": "beer",
+      "id": "jameson-caskmates-stout",
+      "slug": "jameson-caskmates-stout",
+      "categoryId": "stout",
       "name": {
-        "en": "Heineken Lager",
-        "si": "හයිනකන් ලේගර්"
+        "en": "Jameson Caskmates Stout Edition",
+        "si": "ජේම්සන් කැස්ක්මේට්ස් ස්ටවුට් එඩිෂන්"
       },
-      "abv": "5%",
+      "abv": "40%",
       "origin": {
-        "en": "Netherlands",
-        "si": "නෙදර්ලන්තය"
+        "en": "Ireland",
+        "si": "අයර්ලන්තය"
       },
       "ingredients": {
-        "en": "Water, malted barley, hops, Heineken A-yeast",
-        "si": "ජලය, මෝල්ට් කළ බාර්ලි, හොප්ස්, හයිනකන් A-යීස්ට්"
+        "en": "Malted and unmalted barley, corn, water",
+        "si": "මෝල්ට් කළ සහ මෝල්ට් නොකළ බාර්ලි, බඩ ඉරිඟු, ජලය"
       },
       "productionMethod": {
-        "en": "Heineken is brewed using a proprietary A-yeast strain developed by Dr. H. Elion in 1886. The brewing process follows standard lager methods: mashing, lautering, boiling with hops, cooling, and fermentation. The beer undergoes horizontal lagering for an extended period before filtration.",
-        "si": "හයිනකන් 1886 දී ආචාර්ය H. එලියන් විසින් සංවර්ධනය කරන ලද හයිනකන් A-යීස්ට් ප්‍රභේදයක් භාවිතයෙන් පිසීම සිදු කරයි. පිසීමේ ක්‍රියාවලිය සම්මත ලේගර් ක්‍රම අනුගමනය කරයි."
+        "en": "Jameson Caskmates Stout Edition begins as a triple-distilled Irish whiskey, produced from a blend of pot still and grain whiskey at the Midleton Distillery. After initial maturation in seasoned oak barrels, the whiskey undergoes a finishing period in barrels that were previously used to age craft stout beer. This secondary maturation imparts cocoa, coffee, and butterscotch notes characteristic of stout beer onto the whiskey.",
+        "si": "ජේම්සන් කැස්ක්මේට්ස් ස්ටවුට් එඩිෂන් මිඩ්ල්ටන් ආසවනාගාරයේ පොට් ස්ටිල් සහ ග්‍රේන් විස්කි මිශ්‍රණයකින් නිෂ්පාදිත තුන්වරක් ආසවනය කළ අයිරිෂ් විස්කියක් ලෙස ආරම්භ වේ. ඕක් බැරල් වල මූලික පරිණත කිරීමෙන් පසු, කලින් ක්‍රාෆ්ට් ස්ටවුට් බියර් පරිණත කිරීමට භාවිතා කළ බැරල් වල අවසන් පරිණත කිරීමේ කාලයකට භාජනය වේ."
       },
       "history": {
-        "en": "Heineken was founded in 1864 when Gerard Adriaan Heineken purchased the De Hooiberg brewery in Amsterdam. The company introduced its proprietary A-yeast in 1886, which remains in use today. Heineken is now produced in breweries across more than 70 countries.",
-        "si": "හයිනකන් 1864 දී ජෙරාඩ් ඒඩ්‍රියන් හයිනකන් ඇම්ස්ටර්ඩෑම්හි ඩි හුයිබර්ග් බියර් කර්මාන්තශාලාව මිලදී ගත් විට ආරම්භ කරන ලදී. හයිනකන් දැන් රටවල් 70 කට වැඩි ප්‍රමාණයක කර්මාන්තශාලා වල නිෂ්පාදනය කරයි."
+        "en": "Jameson Caskmates originated from a collaboration between the Midleton Distillery and a local Cork craft brewery in 2014. The head cooper at Midleton provided seasoned whiskey barrels to the brewery for aging stout, then reclaimed those stout-seasoned barrels for finishing Jameson whiskey. The Stout Edition was released as part of the Caskmates range, which explores the flavor exchange between whiskey and beer barrel aging.",
+        "si": "ජේම්සන් කැස්ක්මේට්ස් 2014 දී මිඩ්ල්ටන් ආසවනාගාරය සහ කෝක් ක්‍රාෆ්ට් බියර් කර්මාන්තශාලාවක් අතර සහයෝගීතාවයකින් ආරම්භ විය. මිඩ්ල්ටන්හි ප්‍රධාන කූපර් ස්ටවුට් පරිණත කිරීම සඳහා බියර් කර්මාන්තශාලාවට විස්කි බැරල් සැපයූ අතර, පසුව ජේම්සන් විස්කි අවසන් කිරීම සඳහා එම ස්ටවුට්-පරිණත බැරල් නැවත ලබා ගත්තේය."
       },
-      "image": "/images/bottles/beer/heineken-lager.jpg"
+      "image": "/images/bottles/stout/Jameson-Caskmates-Stout.png"
     },
     {
       "id": "corona-extra",
@@ -590,7 +671,88 @@
         "en": "Corona Extra was first brewed in 1925 by Cervecería Modelo in Mexico City. It was initially produced for the domestic Mexican market. The brand began exporting to the United States in 1981 and subsequently expanded to international markets, becoming one of the most recognized beer brands worldwide.",
         "si": "කොරෝනා එක්ස්ට්‍රා මුලින්ම 1925 දී මෙක්සිකෝ නගරයේ සර්වසේරියා මොඩෙලෝ විසින් පිසීම සිදු කරන ලදී. එය මුලින් දේශීය මෙක්සිකානු වෙළඳපොළ සඳහා නිෂ්පාදනය කරන ලදී."
       },
-      "image": "/images/bottles/beer/corona-extra.jpg"
+      "image": "/images/bottles/beer/Corona-Extra.png"
+    },
+    {
+      "id": "budweiser",
+      "slug": "budweiser",
+      "categoryId": "beer",
+      "name": {
+        "en": "Budweiser",
+        "si": "බඩ්වයිසර්"
+      },
+      "abv": "5%",
+      "origin": {
+        "en": "United States",
+        "si": "එක්සත් ජනපදය"
+      },
+      "ingredients": {
+        "en": "Water, barley malt, rice, hops, yeast",
+        "si": "ජලය, බාර්ලි මෝල්ට්, සහල්, හොප්ස්, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Budweiser is brewed using a beechwood aging process. The beer is produced with a blend of barley malt and rice as an adjunct grain, which contributes to its lighter body. After primary fermentation, the beer is aged on beechwood chips for up to 21 days, a process the brewery refers to as beechwood aging, which aids in secondary fermentation and clarification.",
+        "si": "බඩ්වයිසර් බීච්වුඩ් පරිණත කිරීමේ ක්‍රියාවලියක් භාවිතයෙන් පිසීම සිදු කරයි. බාර්ලි මෝල්ට් සහ සහල් මිශ්‍රණයකින් නිෂ්පාදනය කරන අතර, සහල් සැහැල්ලු ශරීරයකට දායක වේ. ප්‍රාථමික පැසවීමෙන් පසු, බියර් දින 21ක් දක්වා බීච්වුඩ් චිප්ස් මත පරිණත කරයි."
+      },
+      "history": {
+        "en": "Budweiser was first introduced in 1876 by Adolphus Busch and Carl Conrad in St. Louis, Missouri. The beer was named after the town of Budweis (České Budějovice) in Bohemia. Anheuser-Busch, the parent company, grew to become one of the largest brewing companies in the world. In 2008, InBev acquired Anheuser-Busch, forming Anheuser-Busch InBev.",
+        "si": "බඩ්වයිසර් 1876 දී මිසූරි ප්‍රාන්තයේ සේන්ට් ලුවිස් හි ඇඩොල්ෆස් බුෂ් සහ කාල් කොන්රාඩ් විසින් මුලින්ම හඳුන්වා දෙන ලදී. බොහීමියාවේ බඩ්වයිස් (චෙස්කේ බුඩියෝවිට්සේ) නගරයේ නමින් බියර් නම් කරන ලදී. 2008 දී InBev විසින් Anheuser-Busch අත්පත් කර ගත් අතර Anheuser-Busch InBev සමාගම පිහිටුවන ලදී."
+      },
+      "image": "/images/bottles/beer/Budwesier.png"
+    },
+    {
+      "id": "carlsberg-pilsner",
+      "slug": "carlsberg-pilsner",
+      "categoryId": "beer",
+      "name": {
+        "en": "Carlsberg Pilsner",
+        "si": "කාල්ස්බර්ග් පිල්ස්නර්"
+      },
+      "abv": "5%",
+      "origin": {
+        "en": "Denmark",
+        "si": "ඩෙන්මාර්කය"
+      },
+      "ingredients": {
+        "en": "Water, barley malt, hops, yeast",
+        "si": "ජලය, බාර්ලි මෝල්ට්, හොප්ස්, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Carlsberg Pilsner is brewed as a pale lager following the pilsner tradition. The process involves mashing barley malt, boiling with aromatic hops, and fermenting with bottom-fermenting yeast. The beer undergoes cold lagering to produce a clean, balanced flavor. Carlsberg's brewing process is notable for its historical contribution to yeast science — the Carlsberg Laboratory isolated Saccharomyces carlsbergensis in 1883.",
+        "si": "කාල්ස්බර්ග් පිල්ස්නර් පිල්ස්නර් සම්ප්‍රදායට අනුව සුදු ලේගර් ලෙස පිසීම සිදු කරයි. බාර්ලි මෝල්ට් මැෂ් කිරීම, සුවඳ හොප්ස් සමඟ තම්බීම, පහළ-පැසවීමේ යීස්ට් සමඟ පැසවීම ඇතුළත් වේ. කාල්ස්බර්ග් රසායනාගාරය 1883 දී Saccharomyces carlsbergensis වෙන් කර හඳුනා ගත්තේය."
+      },
+      "history": {
+        "en": "Carlsberg was founded in 1847 by J.C. Jacobsen in Copenhagen, Denmark. The brewery was named after Jacobsen's son Carl. The Carlsberg Laboratory, established in 1875, made significant contributions to brewing science, including the isolation of pure yeast cultures by Emil Christian Hansen in 1883. Carlsberg is now one of the largest brewery groups globally, operating in over 150 markets.",
+        "si": "කාල්ස්බර්ග් 1847 දී ඩෙන්මාර්කයේ කෝපන්හේගන් හි J.C. ජේකබ්සන් විසින් පිහිටුවන ලදී. ජේකබ්සන්ගේ පුත් කාල් ගේ නමින් කර්මාන්තශාලාව නම් කරන ලදී. 1875 දී පිහිටුවන ලද කාල්ස්බර්ග් රසායනාගාරය 1883 දී එමිල් ක්‍රිස්ටියන් හැන්සන් විසින් පිරිසිදු යීස්ට් වගා වෙන් කිරීම ඇතුළුව පිසීමේ විද්‍යාවට සැලකිය යුතු දායකත්වයක් ලබා දුන්නේය."
+      },
+      "image": "/images/bottles/beer/Carlsberg-Pilsner.png"
+    },
+    {
+      "id": "benediktiner-weissbier",
+      "slug": "benediktiner-weissbier",
+      "categoryId": "beer",
+      "name": {
+        "en": "Benediktiner Weissbier",
+        "si": "බෙනෙඩික්ටිනර් වයිස්බියර්"
+      },
+      "abv": "5.4%",
+      "origin": {
+        "en": "Germany",
+        "si": "ජර්මනිය"
+      },
+      "ingredients": {
+        "en": "Water, wheat malt, barley malt, hops, yeast",
+        "si": "ජලය, තිරිඟු මෝල්ට්, බාර්ලි මෝල්ට්, හොප්ස්, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Benediktiner Weissbier is a traditional Bavarian wheat beer brewed with a minimum of 50% wheat malt, in accordance with the German Reinheitsgebot purity law. The beer undergoes top fermentation using a specialized Weizen yeast strain, which produces characteristic banana and clove flavor esters. The beer is unfiltered, retaining its natural haze from suspended yeast and wheat proteins.",
+        "si": "බෙනෙඩික්ටිනර් වයිස්බියර් ජර්මානු Reinheitsgebot පිරිසිදුකම් නීතියට අනුකූලව අවම වශයෙන් 50% තිරිඟු මෝල්ට් සමඟ පිසූ සම්ප්‍රදායික බවේරියානු තිරිඟු බියර් එකකි. විශේෂිත Weizen යීස්ට් ප්‍රභේදයක් භාවිතයෙන් ඉහළ පැසවීම සිදු කරන අතර, එය කේසෙල් සහ කරාබු රස එස්ටර් නිපදවයි. බියර් පෙරීමකින් තොරව ස්වාභාවික මීදුම රඳවා ගනී."
+      },
+      "history": {
+        "en": "Benediktiner Weissbier is produced by the Licher Brewery (Bitburger Brewing Group) in Germany, drawing on the Benedictine monastic brewing tradition. Monastic brewing in Bavaria dates back over a thousand years, with Benedictine monks among the earliest organized brewers in Central Europe. The Weissbier style became widely popular in Bavaria during the 16th and 17th centuries under royal monopoly before becoming available to commercial breweries.",
+        "si": "බෙනෙඩික්ටිනර් වයිස්බියර් ජර්මනියේ ලිෂර් කර්මාන්තශාලාව (Bitburger Brewing Group) විසින් බෙනෙඩික්ටින් ආරාම පිසීමේ සම්ප්‍රදාය මත පදනම්ව නිෂ්පාදනය කරයි. බවේරියාවේ ආරාම පිසීම වසර දහසකට වැඩි ඉතිහාසයක් ඇති අතර, බෙනෙඩික්ටින් සන්නසුන් මධ්‍යම යුරෝපයේ මුල්ම සංවිධානාත්මක පිසීමේ ශිල්පීන් අතර විය."
+      },
+      "image": "/images/bottles/beer/Benediktiner-Weissbier.png"
     },
     {
       "id": "moet-chandon-imperial",
@@ -647,6 +809,141 @@
       "image": "/images/bottles/wine/barefoot-cellars-red.jpg"
     },
     {
+      "id": "bottega-valpolicella",
+      "slug": "bottega-valpolicella",
+      "categoryId": "wine",
+      "name": {
+        "en": "Bottega Valpolicella Classico DOC",
+        "si": "බොටේගා වැල්පොලිසෙල්ලා ක්ලැසිකෝ DOC"
+      },
+      "abv": "12.5%",
+      "origin": {
+        "en": "Italy",
+        "si": "ඉතාලිය"
+      },
+      "ingredients": {
+        "en": "Corvina, Corvinone, Rondinella grapes",
+        "si": "කොර්වීනා, කොර්වීනෝනේ, රොන්ඩිනෙල්ලා මිදි"
+      },
+      "productionMethod": {
+        "en": "Bottega Valpolicella Classico DOC is produced from a blend of Corvina, Corvinone, and Rondinella grapes grown in the Classico zone of Valpolicella in the Veneto region. The grapes are destemmed and undergo maceration and fermentation at controlled temperatures. The wine is aged briefly in stainless steel tanks to preserve its fresh, fruity character. It is produced under DOC (Denominazione di Origine Controllata) regulations.",
+        "si": "බොටේගා වැල්පොලිසෙල්ලා ක්ලැසිකෝ DOC වෙනෙටෝ කලාපයේ වැල්පොලිසෙල්ලාවේ ක්ලැසිකෝ කලාපයේ වගා කරන කොර්වීනා, කොර්වීනෝනේ සහ රොන්ඩිනෙල්ලා මිදි මිශ්‍රණයකින් නිෂ්පාදනය කරයි. පාලිත උෂ්ණත්වවල මැසරේෂන් සහ පැසවීමට භාජනය වේ. DOC නියාමන යටතේ නිෂ්පාදනය කරයි."
+      },
+      "history": {
+        "en": "Bottega is an Italian winery and distillery founded by the Bottega family in Bibano di Godega, Veneto. The family's involvement in winemaking dates back several generations in the Veneto region. Valpolicella is one of Italy's oldest wine-producing regions, with viticulture dating to the ancient Greek period. The Classico DOC designation indicates the wine comes from the original, historically defined growing area.",
+        "si": "බොටේගා වෙනෙටෝ බිබානෝ ඩි ගොඩේගා හි බොටේගා පවුල විසින් පිහිටුවන ලද ඉතාලි වයින්ශාලාවකි. වැල්පොලිසෙල්ලා ඉතාලියේ පැරණිතම වයින් නිෂ්පාදන කලාපවලින් එකකි. ක්ලැසිකෝ DOC නම් කිරීම මුල් ඓතිහාසික වගා ප්‍රදේශයෙන් වයින් එන බව පෙන්නුම් කරයි."
+      },
+      "image": "/images/bottles/wine/Bottega-Valpolicella-Classico-DOC.png"
+    },
+    {
+      "id": "danzante-prosecco",
+      "slug": "danzante-prosecco",
+      "categoryId": "wine",
+      "name": {
+        "en": "Danzante Prosecco",
+        "si": "ඩන්සන්ටේ ප්‍රොසෙකෝ"
+      },
+      "abv": "11%",
+      "origin": {
+        "en": "Italy",
+        "si": "ඉතාලිය"
+      },
+      "ingredients": {
+        "en": "Glera grapes",
+        "si": "ග්ලේරා මිදි"
+      },
+      "productionMethod": {
+        "en": "Danzante Prosecco is a sparkling wine produced from Glera grapes grown in the Veneto region of northeastern Italy. The wine is made using the Charmat method (also known as the Italian method or tank method), where secondary fermentation occurs in large pressurized stainless steel tanks rather than in individual bottles. This method preserves the fresh, fruity, and floral aromatics characteristic of the Glera grape.",
+        "si": "ඩන්සන්ටේ ප්‍රොසෙකෝ ඉතාලියේ වෙනෙටෝ කලාපයේ වගා කරන ග්ලේරා මිදි වලින් නිෂ්පාදනය කරන ක්ෂුද්‍ර වයින් වර්ගයකි. ද්විතීයික පැසවීම තනි බෝතල්වල නොව විශාල පීඩිත වානේ ටැංකිවල සිදුවන ෂාමා ක්‍රමය භාවිතයෙන් සාදයි."
+      },
+      "history": {
+        "en": "Danzante is produced by Frescobaldi, one of Italy's oldest and most prestigious wine families, with winemaking roots in Tuscany dating back to the 14th century. The Prosecco style originates from the Veneto and Friuli Venezia Giulia regions. Prosecco has experienced significant growth in global popularity since the early 2000s, surpassing Champagne in total volume of sparkling wine sold worldwide.",
+        "si": "ඩන්සන්ටේ ඉතාලියේ පැරණිතම සහ වඩාත් කීර්තිමත් වයින් පවුල්වලින් එකක් වන ෆ්‍රෙස්කොබාල්ඩි විසින් නිෂ්පාදනය කරයි. ප්‍රොසෙකෝ ශෛලිය වෙනෙටෝ සහ ෆ්‍රියුලි වෙනේසියා ජූලියා කලාපවලින් ආරම්භ වේ. 2000 ගණන්වල මුල් භාගයේ සිට ගෝලීය ජනප්‍රියත්වයෙන් සැලකිය යුතු වර්ධනයක් අත්කර ගෙන ඇත."
+      },
+      "image": "/images/bottles/wine/Danzante-Prosecco.png"
+    },
+    {
+      "id": "ducato-montepulciano",
+      "slug": "ducato-montepulciano",
+      "categoryId": "wine",
+      "name": {
+        "en": "Ducato Montepulciano d'Abruzzo DOC",
+        "si": "ඩුකාටෝ මොන්ටේපුල්චානෝ ඩ'අබ්‍රුස්සෝ DOC"
+      },
+      "abv": "13%",
+      "origin": {
+        "en": "Italy",
+        "si": "ඉතාලිය"
+      },
+      "ingredients": {
+        "en": "Montepulciano grapes",
+        "si": "මොන්ටේපුල්චානෝ මිදි"
+      },
+      "productionMethod": {
+        "en": "Ducato Montepulciano d'Abruzzo DOC is produced from Montepulciano grapes grown in the Abruzzo region of central Italy. The grapes undergo destemming, crushing, and maceration with fermentation at controlled temperatures. The wine is typically aged in stainless steel tanks, though some producers use brief oak aging. The DOC designation requires the wine to contain a minimum of 85% Montepulciano grapes.",
+        "si": "ඩුකාටෝ මොන්ටේපුල්චානෝ ඩ'අබ්‍රුස්සෝ DOC ඉතාලියේ මධ්‍යම අබ්‍රුස්සෝ කලාපයේ වගා කරන මොන්ටේපුල්චානෝ මිදි වලින් නිෂ්පාදනය කරයි. පාලිත උෂ්ණත්වවල මැසරේෂන් සහ පැසවීමට භාජනය වේ. DOC නම් කිරීමට අවම 85% මොන්ටේපුල්චානෝ මිදි අවශ්‍ය වේ."
+      },
+      "history": {
+        "en": "Montepulciano d'Abruzzo is one of Italy's most widely produced DOC wines, originating from the Abruzzo region along the Adriatic coast. The Montepulciano grape variety has been cultivated in central Italy for centuries. The DOC was officially established in 1968. Montepulciano d'Abruzzo is known for offering accessible, fruit-forward red wines and is one of the most exported Italian wines globally.",
+        "si": "මොන්ටේපුල්චානෝ ඩ'අබ්‍රුස්සෝ ඇඩ්‍රියාටික් වෙරළ තීරය දිගේ අබ්‍රුස්සෝ කලාපයෙන් ආරම්භ වන ඉතාලියේ වඩාත් පුළුල් ලෙස නිෂ්පාදනය කරන DOC වයින් වලින් එකකි. DOC 1968 දී නිල වශයෙන් පිහිටුවන ලදී. ගෝලීය වශයෙන් වැඩිපුරම අපනයනය කරන ඉතාලි වයින් වලින් එකකි."
+      },
+      "image": "/images/bottles/wine/Ducato-Montepulciano-De-Abruzzo-DOC.png"
+    },
+    {
+      "id": "jacobs-creek-shiraz-cabernet",
+      "slug": "jacobs-creek-shiraz-cabernet",
+      "categoryId": "wine",
+      "name": {
+        "en": "Jacob's Creek Shiraz Cabernet",
+        "si": "ජේකබ්ස් ක්‍රීක් ෂිරාස් කැබනේ"
+      },
+      "abv": "13.5%",
+      "origin": {
+        "en": "Australia",
+        "si": "ඕස්ට්‍රේලියාව"
+      },
+      "ingredients": {
+        "en": "Shiraz and Cabernet Sauvignon grapes",
+        "si": "ෂිරාස් සහ කැබනේ සෝවිනන් මිදි"
+      },
+      "productionMethod": {
+        "en": "Jacob's Creek Shiraz Cabernet is a red blend produced from Shiraz and Cabernet Sauvignon grapes sourced primarily from South Australia's Barossa Valley and surrounding regions. The grapes are harvested, crushed, and fermented separately before being blended. The Shiraz contributes dark fruit and spice, while the Cabernet Sauvignon adds structure and tannin. The wine is typically aged in a combination of French and American oak.",
+        "si": "ජේකබ්ස් ක්‍රීක් ෂිරාස් කැබනේ ප්‍රධාන වශයෙන් දකුණු ඕස්ට්‍රේලියාවේ බරොසා නිම්නයෙන් ලබාගත් ෂිරාස් සහ කැබනේ සෝවිනන් මිදි වලින් නිෂ්පාදනය කරන රතු මිශ්‍රණයකි. මිදි වෙන් වෙන්ව පැසවා පසුව මිශ්‍ර කරයි. ෂිරාස් අඳුරු පලතුරු සහ කුළුබඩු දායක වන අතර කැබනේ සෝවිනන් ව්‍යුහය එකතු කරයි."
+      },
+      "history": {
+        "en": "Jacob's Creek is named after the small creek near which Johann Gramp planted his first vineyard in the Barossa Valley in 1847. The brand launched its first commercial wine in 1976. Jacob's Creek became one of Australia's most recognized wine brands internationally and is now owned by Pernod Ricard. The Shiraz Cabernet blend reflects the classic Australian winemaking tradition of combining these two grape varieties.",
+        "si": "ජේකබ්ස් ක්‍රීක් 1847 දී බරොසා නිම්නයේ ජෝහාන් ග්‍රැම්ප් සිය පළමු මිදි වත්ත සිටුවූ කුඩා ඔයට ආසන්නව නම් කරන ලදී. 1976 දී පළමු වාණිජ වයින් දියත් කළේය. ජේකබ්ස් ක්‍රීක් ජාත්‍යන්තර වශයෙන් ඕස්ට්‍රේලියාවේ වඩාත් ප්‍රසිද්ධ වයින් වෙළඳ නාම වලින් එකක් බවට පත් විය."
+      },
+      "image": "/images/bottles/wine/Jacobs-Creek-Shiraz-Cabernet-1.png"
+    },
+    {
+      "id": "septima-malbec",
+      "slug": "septima-malbec",
+      "categoryId": "wine",
+      "name": {
+        "en": "Septima Malbec",
+        "si": "සෙප්ටිමා මැල්බෙක්"
+      },
+      "abv": "13.5%",
+      "origin": {
+        "en": "Argentina",
+        "si": "ආර්ජන්ටිනාව"
+      },
+      "ingredients": {
+        "en": "Malbec grapes",
+        "si": "මැල්බෙක් මිදි"
+      },
+      "productionMethod": {
+        "en": "Septima Malbec is produced from Malbec grapes grown in the Mendoza wine region at high altitude in the foothills of the Andes mountains. The grapes are harvested, destemmed, and fermented in temperature-controlled stainless steel tanks. After fermentation, the wine is aged in French and American oak barrels for approximately 6 to 8 months, which adds complexity while preserving the varietal's characteristic dark fruit and violet aromatics.",
+        "si": "සෙප්ටිමා මැල්බෙක් ඇන්ඩීස් කඳුකරයේ පාමුල ඉහළ උන්නතාංශයේ මෙන්ඩෝසා වයින් කලාපයේ වගා කරන මැල්බෙක් මිදි වලින් නිෂ්පාදනය කරයි. උෂ්ණත්ව පාලිත වානේ ටැංකිවල පැසවීමෙන් පසු මාස 6-8 ක් පමණ ප්‍රංශ සහ ඇමරිකානු ඕක් බැරල් වල පරිණත කරයි."
+      },
+      "history": {
+        "en": "Septima is a winery established in 2001 in Luján de Cuyo, Mendoza, Argentina, by the Spanish Codorníu Raventós group. The name 'Septima' refers to the seventh winery established by the group. Mendoza is the primary wine-producing region of Argentina and is recognized as one of the world's premier Malbec growing areas. The Malbec grape, originally from southwestern France, found ideal growing conditions in Argentina's high-altitude vineyards.",
+        "si": "සෙප්ටිමා 2001 දී ආර්ජන්ටිනාවේ මෙන්ඩෝසා ලුහාන් ඩි කුයෝ හි ස්පාඤ්ඤ කොඩෝර්නියු රැවෙන්ටෝස් සමූහය විසින් පිහිටුවන ලදී. 'සෙප්ටිමා' යන නම සමූහය විසින් පිහිටුවන ලද හත්වන වයින්ශාලාවට අදාළ වේ. මැල්බෙක් මිදි මුලින් ප්‍රංශයේ නිරිත දිග ප්‍රදේශයෙන් ආරම්භ වූ අතර ආර්ජන්ටිනාවේ ඉහළ උන්නතාංශ මිදි වත්තවල පරිපූර්ණ වගා කොන්දේසි සොයා ගත්තේය."
+      },
+      "image": "/images/bottles/wine/Septima-Malbec-1.png"
+    },
+    {
       "id": "bacardi-superior",
       "slug": "bacardi-superior",
       "categoryId": "rum",
@@ -671,7 +968,7 @@
         "en": "Bacardi was founded in 1862 by Don Facundo Bacardí Massó in Santiago de Cuba. The company developed its light-bodied rum style through charcoal filtration, distinguishing it from heavier rums of the era. Production relocated to Puerto Rico following the Cuban Revolution in 1959.",
         "si": "බකාඩි 1862 දී සැන්ටියාගෝ ඩි කියුබා හි ඩොන් ෆකුන්ඩෝ බකාර්ඩි මස්සෝ විසින් ආරම්භ කරන ලදී. 1959 කියුබානු විප්ලවයෙන් පසු නිෂ්පාදනය පුවර්ටෝ රිකෝවට ස්ථාන මාරු විය."
       },
-      "image": "/images/bottles/rum/bacardi-superior.jpg"
+      "image": "/images/bottles/rum/Bacardi-Carta-Blanca-Rum-Local-1.png"
     },
     {
       "id": "captain-morgan-original",
@@ -701,6 +998,87 @@
       "image": "/images/bottles/rum/captain-morgan-original.jpg"
     },
     {
+      "id": "bacardi-gold",
+      "slug": "bacardi-gold",
+      "categoryId": "rum",
+      "name": {
+        "en": "Bacardi Gold",
+        "si": "බකාඩි ගෝල්ඩ්"
+      },
+      "abv": "40%",
+      "origin": {
+        "en": "Puerto Rico",
+        "si": "පුවර්ටෝ රිකෝ"
+      },
+      "ingredients": {
+        "en": "Sugarcane molasses, water, yeast",
+        "si": "උක් මොලැසිස්, ජලය, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Bacardi Gold (Carta Oro) is produced at the Bacardi distillery in Cataño, Puerto Rico. The rum is distilled from molasses using a combination of pot and column stills. After distillation, it is aged in charred American white oak barrels for a minimum of two years, which imparts the golden color and adds notes of vanilla, caramel, and toasted oak. The aged rum is then filtered through charcoal before blending and bottling.",
+        "si": "බකාඩි ගෝල්ඩ් (කාටා ඔරෝ) පුවර්ටෝ රිකෝ කටාඤෝ හි බකාඩි ආසවනාගාරයේ නිෂ්පාදනය කරයි. මොලැසිස් වලින් ආසවනය කර අවම වශයෙන් අවුරුදු දෙකක් අඟුරු බැරල් වල පරිණත කරයි. රන්වන් වර්ණය සහ වැනිලා, කැරමල් රස එකතු කරයි."
+      },
+      "history": {
+        "en": "Bacardi was founded in 1862 by Don Facundo Bacardí Massó in Santiago de Cuba. The Gold variant was developed as a medium-bodied alternative to the lighter Carta Blanca. After the Cuban Revolution in 1959, Bacardi relocated its primary operations to Puerto Rico, where the Gold and other expressions continue to be produced. Bacardi remains the largest privately held spirits company in the world.",
+        "si": "බකාඩි 1862 දී කියුබාවේ සැන්ටියාගෝ හි ඩොන් ෆකුන්ඩෝ බකාඩි මැසෝ විසින් පිහිටුවන ලදී. 1959 කියුබානු විප්ලවයෙන් පසු බකාඩි සිය මූලික කටයුතු පුවර්ටෝ රිකෝ වෙත ගෙන ගියේය. බකාඩි ලෝකයේ විශාලතම පුද්ගලික මධ්‍යසාර සමාගම ලෙස පවතී."
+      },
+      "image": "/images/bottles/rum/Bacardi-Gold-Rum.png"
+    },
+    {
+      "id": "bacardi-black",
+      "slug": "bacardi-black",
+      "categoryId": "rum",
+      "name": {
+        "en": "Bacardi Black",
+        "si": "බකාඩි බ්ලැක්"
+      },
+      "abv": "40%",
+      "origin": {
+        "en": "Puerto Rico",
+        "si": "පුවර්ටෝ රිකෝ"
+      },
+      "ingredients": {
+        "en": "Sugarcane molasses, water, yeast",
+        "si": "උක් මොලැසිස්, ජලය, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Bacardi Black (Carta Negra) is a dark rum produced by aging distilled sugarcane molasses spirit in heavily charred oak barrels for up to four years. The extended aging and darker char level produce a fuller body with pronounced smoky, molasses, and dried fruit characteristics compared to the lighter Bacardi expressions. The rum is blended from multiple aged stocks to achieve a consistent flavor profile.",
+        "si": "බකාඩි බ්ලැක් (කාටා නෙග්‍රා) අවුරුදු හතරක් දක්වා බරපතල ලෙස අඟුරු කළ ඕක් බැරල් වල පරිණත කිරීමෙන් නිෂ්පාදනය කරන අඳුරු රම් වර්ගයකි. දිගු පරිණත කිරීම සැහැල්ලු බකාඩි ප්‍රභේදවලට සාපේක්ෂව දුම්, මොලැසිස් සහ වියළි පලතුරු ලක්ෂණ සහිත පූර්ණ ශරීරයක් ඇති කරයි."
+      },
+      "history": {
+        "en": "Bacardi Black was introduced as part of the Bacardi portfolio to offer a darker, more full-bodied rum option. The Carta Negra designation follows the traditional Bacardi naming convention based on label color — Blanca (white), Oro (gold), and Negra (black) — reflecting increasing levels of aging and flavor intensity. The product is manufactured at the Bacardi facility in Cataño, Puerto Rico.",
+        "si": "බකාඩි බ්ලැක් අඳුරු, වඩා පූර්ණ ශරීරයක් ඇති රම් විකල්පයක් ලෙස බකාඩි කළඹට හඳුන්වා දෙන ලදී. කාටා නෙග්‍රා නම් කිරීම සම්ප්‍රදායික බකාඩි නම් කිරීමේ සම්මුතිය අනුගමනය කරයි — බ්ලැන්කා (සුදු), ඔරෝ (රන්), නෙග්‍රා (කළු). පුවර්ටෝ රිකෝ කටාඤෝ හි බකාඩි පහසුකම්වල නිෂ්පාදනය කරයි."
+      },
+      "image": "/images/bottles/rum/Black-by-Bacardi-1.png"
+    },
+    {
+      "id": "havana-club-7",
+      "slug": "havana-club-7",
+      "categoryId": "rum",
+      "name": {
+        "en": "Havana Club 7 Años",
+        "si": "හවානා ක්ලබ් 7 අනෝස්"
+      },
+      "abv": "40%",
+      "origin": {
+        "en": "Cuba",
+        "si": "කියුබාව"
+      },
+      "ingredients": {
+        "en": "Sugarcane molasses, water, yeast",
+        "si": "උක් මොලැසිස්, ජලය, යීස්ට්"
+      },
+      "productionMethod": {
+        "en": "Havana Club 7 Años is produced using the Cuban rum-making tradition. Sugarcane molasses is fermented and distilled, then aged for a minimum of seven years in white oak barrels in tropical Cuban warehouses. The warm climate accelerates maturation compared to temperate regions. After aging, the rum is blended by the Maestro Ronero (Master Rum Maker) using stocks of different ages, with seven years being the minimum. The final blend is filtered and rested before bottling.",
+        "si": "හවානා ක්ලබ් 7 අනෝස් කියුබානු රම් සෑදීමේ සම්ප්‍රදාය භාවිතයෙන් නිෂ්පාදනය කරයි. උක් මොලැසිස් පැසවා ආසවනය කර, කියුබාවේ සුදු ඕක් බැරල් වල අවම වශයෙන් අවුරුදු හතක් පරිණත කරයි. උණුසුම් දේශගුණය සෞම්‍ය කලාපවලට සාපේක්ෂව පරිණත කිරීම වේගවත් කරයි. මේස්ට්‍රෝ රොනේරෝ විසින් මිශ්‍ර කරයි."
+      },
+      "history": {
+        "en": "Havana Club was originally established in 1934 by José Arechabala in Cárdenas, Cuba. After the Cuban Revolution, the brand was nationalized and is now produced by Cuba Ron S.A. in partnership with Pernod Ricard for international distribution. The 7 Años expression is considered the flagship aged rum of the brand. Havana Club is the subject of an ongoing trademark dispute between Pernod Ricard and Bacardi in the United States.",
+        "si": "හවානා ක්ලබ් මුලින් 1934 දී කියුබාවේ කාඩෙනාස්හි හොසේ අරෙචබාලා විසින් ස්ථාපිත කරන ලදී. කියුබානු විප්ලවයෙන් පසු වෙළඳ නාමය ජාතික සතු කරන ලද අතර දැන් ජාත්‍යන්තර බෙදාහැරීම සඳහා Pernod Ricard සමඟ එක්ව Cuba Ron S.A. විසින් නිෂ්පාදනය කරයි."
+      },
+      "image": "/images/bottles/rum/Havana-Club-7-Years-1-scaled.png"
+    },
+    {
       "id": "absolut-vodka",
       "slug": "absolut-vodka",
       "categoryId": "vodka",
@@ -725,7 +1103,7 @@
         "en": "Absolut traces its origins to 1879 when Lars Olsson Smith introduced continuous distillation in Sweden. The modern brand was launched in 1979 for the American market with a distinctive apothecary-style bottle designed by Gunnar Broman. It is produced in Åhus, Sweden.",
         "si": "ඇබ්සලූට් එහි මූලාරම්භය 1879 දක්වා ලුහුබඳින අතර, ලාර්ස් ඔල්සන් ස්මිත් ස්වීඩනයේ අඛණ්ඩ ආසවනය හඳුන්වා දුන්නේය. නවීන වෙළඳ නාමය 1979 දී ඇමරිකානු වෙළඳපොළ සඳහා දියත් කරන ලදී."
       },
-      "image": "/images/bottles/vodka/absolut-vodka.jpg"
+      "image": "/images/bottles/vodka/Absolut-Vodka.png"
     },
     {
       "id": "smirnoff-no-21",
@@ -752,7 +1130,88 @@
         "en": "Smirnoff originated in Moscow in 1864, founded by Pyotr Arsenievich Smirnov. Following the Russian Revolution, the brand was re-established outside Russia. Production rights were sold to Rudolph Kunett in 1934, and subsequently to Heublein Inc. It is now one of the most widely sold vodka brands globally.",
         "si": "ස්මිර්නොෆ් 1864 දී මොස්කව්හි ප්‍යොට්ර් ආර්සෙනියෙවිච් ස්මිර්නොව් විසින් ආරම්භ කරන ලදී. රුසියානු විප්ලවයෙන් පසු, වෙළඳ නාමය රුසියාවෙන් පිටත නැවත ස්ථාපිත කරන ලදී."
       },
-      "image": "/images/bottles/vodka/smirnoff-no-21.jpg"
+      "image": "/images/bottles/vodka/Smirnoff-Red.png"
+    },
+    {
+      "id": "absolut-citron",
+      "slug": "absolut-citron",
+      "categoryId": "vodka",
+      "name": {
+        "en": "Absolut Citron",
+        "si": "ඇබ්සලූට් සිට්‍රොන්"
+      },
+      "abv": "40%",
+      "origin": {
+        "en": "Sweden",
+        "si": "ස්වීඩනය"
+      },
+      "ingredients": {
+        "en": "Winter wheat, water, natural citrus flavoring",
+        "si": "ශීත කාලීන තිරිඟු, ජලය, ස්වාභාවික සිට්‍රස් රස"
+      },
+      "productionMethod": {
+        "en": "Absolut Citron is produced at the Absolut distillery in Åhus, Sweden, using the same continuous distillation process as the original Absolut Vodka. The vodka is distilled from winter wheat and water sourced from a deep well in Åhus. Natural lemon and lime flavors are added after distillation. Unlike many flavored vodkas, Absolut Citron contains no added sugar.",
+        "si": "ඇබ්සලූට් සිට්‍රොන් ස්වීඩනයේ ඔහුස් හි ඇබ්සලූට් ආසවනාගාරයේ මුල් ඇබ්සලූට් වොඩ්කා සමඟ සමාන අඛණ්ඩ ආසවන ක්‍රියාවලියක් භාවිතයෙන් නිෂ්පාදනය කරයි. ආසවනයෙන් පසු ස්වාභාවික ලෙමන් සහ දෙහි රස එකතු කරයි. බොහෝ රසකැවූ වොඩ්කාවලට වඩා වෙනස්ව, ඇබ්සලූට් සිට්‍රොන්හි සීනි එකතු කර නැත."
+      },
+      "history": {
+        "en": "Absolut Citron was introduced in 1988 as the first flavored extension of the Absolut Vodka brand. It was one of the earliest citrus-flavored vodkas on the international market. The product gained cultural significance as a key ingredient in the Cosmopolitan cocktail, which became widely popular in the 1990s. Absolut Citron remains one of the best-selling flavored vodkas globally.",
+        "si": "ඇබ්සලූට් සිට්‍රොන් 1988 දී ඇබ්සලූට් වොඩ්කා වෙළඳ නාමයේ පළමු රසකැවූ දිගුව ලෙස හඳුන්වා දෙන ලදී. එය ජාත්‍යන්තර වෙළඳපොළේ මුල්ම සිට්‍රස් රස වොඩ්කාවන්ගෙන් එකක් විය. 1990 ගණන්වල පුළුල් ලෙස ජනප්‍රිය වූ කොස්මොපොලිටන් කොක්ටේලයේ ප්‍රධාන අමුද්‍රව්‍යයක් ලෙස සංස්කෘතික වැදගත්කමක් ලබා ගත්තේය."
+      },
+      "image": "/images/bottles/vodka/Absolut-Citron.png"
+    },
+    {
+      "id": "skyy-vodka",
+      "slug": "skyy-vodka",
+      "categoryId": "vodka",
+      "name": {
+        "en": "Skyy Vodka",
+        "si": "ස්කයි වොඩ්කා"
+      },
+      "abv": "40%",
+      "origin": {
+        "en": "United States",
+        "si": "එක්සත් ජනපදය"
+      },
+      "ingredients": {
+        "en": "Water, American grain",
+        "si": "ජලය, ඇමරිකානු ධාන්‍ය"
+      },
+      "productionMethod": {
+        "en": "Skyy Vodka is produced using a proprietary quadruple-distillation and triple-filtration process. The vodka is distilled from American grain. The quadruple distillation is intended to reduce congeners and impurities, while the triple filtration further refines the spirit. The process was developed by inventor Maurice Kanbar, who aimed to create a vodka with reduced impurities that could contribute to hangovers.",
+        "si": "ස්කයි වොඩ්කා හිමිකාර සිව්වරක් ආසවන සහ තුන්වරක් පෙරීමේ ක්‍රියාවලියක් භාවිතයෙන් නිෂ්පාදනය කරයි. ඇමරිකානු ධාන්‍ය වලින් ආසවනය කරයි. සිව්වරක් ආසවනය කොන්ජනර් සහ අපිරිසිදුකම් අඩු කිරීමට අදහස් කරන අතර, තුන්වරක් පෙරීම මධ්‍යසාරය තවදුරටත් පිරිපහදු කරයි."
+      },
+      "history": {
+        "en": "Skyy Vodka was created in 1992 by Maurice Kanbar, an inventor and entrepreneur based in San Francisco, California. Kanbar developed the quadruple-distillation and triple-filtration process after researching the causes of hangovers. The brand was acquired by the Campari Group in 2002. Skyy is recognized for its distinctive cobalt blue bottle design.",
+        "si": "ස්කයි වොඩ්කා 1992 දී කැලිෆෝනියාවේ සැන් ෆ්‍රැන්සිස්කෝ පදනම් කරගත් නව නිපැයුම්කරු සහ ව්‍යවසායක මොරිස් කන්බාර් විසින් නිර්මාණය කරන ලදී. 2002 දී කැම්පාරි සමූහය විසින් වෙළඳ නාමය අත්පත් කර ගන්නා ලදී. එහි සුවිශේෂී කොබෝල්ට් නිල් බෝතල් සැලසුම සඳහා ස්කයි හඳුනා ගැනේ."
+      },
+      "image": "/images/bottles/vodka/Skyy-Vodka.png"
+    },
+    {
+      "id": "celebration-vodka",
+      "slug": "celebration-vodka",
+      "categoryId": "vodka",
+      "name": {
+        "en": "Celebration Vodka",
+        "si": "සෙලිබ්‍රේෂන් වොඩ්කා"
+      },
+      "abv": "40%",
+      "origin": {
+        "en": "Sri Lanka",
+        "si": "ශ්‍රී ලංකාව"
+      },
+      "ingredients": {
+        "en": "Water, sugarcane spirit, grain neutral spirit",
+        "si": "ජලය, උක් මධ්‍යසාරය, ධාන්‍ය මධ්‍යස්ථ මධ්‍යසාරය"
+      },
+      "productionMethod": {
+        "en": "Celebration Vodka is produced in Sri Lanka using a blend of locally distilled sugarcane and grain neutral spirits. The spirit undergoes multiple distillation and filtration stages to achieve a clean, neutral flavor profile. It is produced for the domestic Sri Lankan market as an affordable vodka option.",
+        "si": "සෙලිබ්‍රේෂන් වොඩ්කා දේශීයව ආසවනය කරන ලද උක් සහ ධාන්‍ය මධ්‍යස්ථ මධ්‍යසාර මිශ්‍රණයක් භාවිතයෙන් ශ්‍රී ලංකාවේ නිෂ්පාදනය කරයි. පිරිසිදු, මධ්‍යස්ථ රස පැතිකඩක් ලබා ගැනීම සඳහා බහුවිධ ආසවන සහ පෙරීමේ අදියරවලට භාජනය වේ."
+      },
+      "history": {
+        "en": "Celebration Vodka is a locally produced vodka brand available in the Sri Lankan market. It is manufactured by one of the licensed distilleries operating under the regulations of the Sri Lankan Excise Department. The brand caters to the domestic market and is part of the broader range of spirits produced in Sri Lanka using local and imported base spirits.",
+        "si": "සෙලිබ්‍රේෂන් වොඩ්කා ශ්‍රී ලංකා වෙළඳපොළේ ඇති දේශීයව නිෂ්පාදිත වොඩ්කා වෙළඳ නාමයකි. ශ්‍රී ලංකා සුරාබදු දෙපාර්තමේන්තුවේ නියාමන යටතේ ක්‍රියාත්මක වන බලපත්‍රලාභී ආසවනාගාර වලින් එකක් විසින් නිෂ්පාදනය කරයි."
+      },
+      "image": "/images/bottles/vodka/Celebration-VODKA.png"
     },
     {
       "id": "tanqueray-london-dry",
@@ -779,7 +1238,7 @@
         "en": "Tanqueray was first distilled in 1830 by Charles Tanqueray in Bloomsbury, London. The original distillery was largely destroyed during the Blitz in World War II, though the original copper still survived. Production was relocated to Cameronbridge, Scotland. The recipe has remained largely unchanged since its creation.",
         "si": "ටැන්කරේ මුලින්ම 1830 දී ලන්ඩනයේ බ්ලූම්ස්බරි හි චාල්ස් ටැන්කරේ විසින් ආසවනය කරන ලදී. මුල් ආසවනාගාරය දෙවන ලෝක යුද්ධයේදී බ්ලිට්ස් අතරතුර බොහෝ දුරට විනාශ විය, නමුත් මුල් තඹ ස්ටිල් එක නොනැසී පැවතුණි."
       },
-      "image": "/images/bottles/gin/tanqueray-london-dry.jpg"
+      "image": "/images/bottles/gin/Tanqueray-Dry-Gin.png"
     },
     {
       "id": "bombay-sapphire",
@@ -806,7 +1265,7 @@
         "en": "Bombay Sapphire was launched in 1987, though the brand claims its recipe dates to 1761. The gin is named after the popularity of gin in India during the British Raj. Production takes place at the Laverstoke Mill distillery in Hampshire, England, a facility that was redesigned by Thomas Heatherwick.",
         "si": "බොම්බේ සැෆයර් 1987 දී දියත් කරන ලද නමුත්, වෙළඳ නාමය එහි වට්ටෝරුව 1761 දක්වා ගමන් කරන බව ප්‍රකාශ කරයි. බ්‍රිතාන්‍ය රාජ් සමයේ ඉන්දියාවේ ජින් ජනප්‍රියත්වය අනුව ජින් නම් කර ඇත."
       },
-      "image": "/images/bottles/gin/bombay-sapphire.jpg"
+      "image": "/images/bottles/gin/Bombay-Sapphire.png"
     }
   ]
 }
