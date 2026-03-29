@@ -7,6 +7,7 @@ import AgeGate from '@/components/AgeGate';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BackToTop from '@/components/BackToTop';
+import ThemeProvider from '@/components/ThemeProvider';
 import '../globals.css';
 
 const notoSans = Noto_Sans({
@@ -51,19 +52,21 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body
         className={`${notoSans.variable} ${notoSansSinhala.variable} bg-bg-primary text-text-secondary antialiased font-sans`}
         style={{ fontFamily: 'var(--font-noto-sans), var(--font-noto-sans-sinhala), sans-serif' }}
       >
-        <NextIntlClientProvider messages={messages}>
-          <AgeGate>
-            <Header />
-            <main>{children}</main>
-            <Footer />
-            <BackToTop />
-          </AgeGate>
-        </NextIntlClientProvider>
+        <ThemeProvider>
+          <NextIntlClientProvider messages={messages}>
+            <AgeGate>
+              <Header />
+              <main>{children}</main>
+              <Footer />
+              <BackToTop />
+            </AgeGate>
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

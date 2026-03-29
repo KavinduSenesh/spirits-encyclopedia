@@ -32,7 +32,7 @@ export default function AgeGate({ children }: { children: React.ReactNode }) {
       {children}
       {!verified && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-bg-primary">
-          <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 50% 50%, rgba(200,149,108,0.04) 0%, transparent 60%)' }} />
+          <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 50% 50%, var(--color-amber-radial-faint) 0%, transparent 60%)' }} />
           <div className="relative bg-bg-elevated/90 backdrop-blur-xl border border-border-amber rounded-2xl p-12 max-w-md w-full mx-4 text-center animate-scale-in">
             <div className="text-amber text-3xl mb-4">&#9670;</div>
             <h2 className="text-text-primary text-[22px] font-light mb-2">

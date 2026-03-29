@@ -64,6 +64,31 @@ export function searchBottles(query: string, locale: 'en' | 'si'): Bottle[] {
   );
 }
 
+export function getFeaturedBottles(count: number = 6): Bottle[] {
+  const categories = data.categories;
+  const featured: Bottle[] = [];
+
+  for (const cat of categories) {
+    if (featured.length >= count) break;
+    const catBottles = data.bottles.filter((b) => b.categoryId === cat.id && hasImage(b));
+    if (catBottles.length > 0) {
+      featured.push(catBottles[0]);
+    }
+  }
+
+  // Fill remaining slots if fewer categories than count
+  if (featured.length < count) {
+    const ids = new Set(featured.map((b) => b.id));
+    const extras = data.bottles.filter((b) => hasImage(b) && !ids.has(b.id));
+    for (const b of extras) {
+      if (featured.length >= count) break;
+      featured.push(b);
+    }
+  }
+
+  return featured;
+}
+
 export function getRelatedBottles(bottleId: string, limit: number = 3): Bottle[] {
   const bottle = data.bottles.find((b) => b.id === bottleId);
   if (!bottle) return [];

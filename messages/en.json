@@ -53,5 +53,26 @@
   "search": {
     "placeholder": "Search bottles...",
     "noResults": "No bottles found."
+  },
+  "random": {
+    "explore": "Surprise Me",
+    "exploring": "Finding a spirit…"
+  },
+  "featured": {
+    "heading": "Editor's Picks"
+  },
+  "filter": {
+    "allOrigins": "All Origins",
+    "sortBy": "Sort by",
+    "nameAsc": "Name A–Z",
+    "nameDesc": "Name Z–A",
+    "abvAsc": "ABV Low → High",
+    "abvDesc": "ABV High → Low",
+    "noResults": "No bottles match the current filter."
+  },
+  "commandSearch": {
+    "placeholder": "Search spirits…",
+    "noResults": "No spirits found.",
+    "allCategories": "All"
   }
 }

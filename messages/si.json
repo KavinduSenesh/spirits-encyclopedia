@@ -53,5 +53,26 @@
   "search": {
     "placeholder": "බෝතල් සොයන්න...",
     "noResults": "බෝතල් හමු නොවීය."
+  },
+  "random": {
+    "explore": "අහඹු බෝතලයක්",
+    "exploring": "සොයමින්…"
+  },
+  "featured": {
+    "heading": "විශේෂිත තේරීම්"
+  },
+  "filter": {
+    "allOrigins": "සියලු මූලාරම්භ",
+    "sortBy": "අනුව පෙළගස්වන්න",
+    "nameAsc": "නම A–Z",
+    "nameDesc": "නම Z–A",
+    "abvAsc": "ABV අඩු → වැඩි",
+    "abvDesc": "ABV වැඩි → අඩු",
+    "noResults": "පෙරහන සමඟ ගැළපෙන බෝතල් නැත."
+  },
+  "commandSearch": {
+    "placeholder": "මධ්‍යසාර සොයන්න…",
+    "noResults": "මධ්‍යසාර හමු නොවීය.",
+    "allCategories": "සියල්ල"
   }
 }
