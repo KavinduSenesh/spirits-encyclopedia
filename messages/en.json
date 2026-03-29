@@ -70,5 +70,20 @@
     "placeholder": "Search spirits…",
     "noResults": "No spirits found.",
     "allCategories": "All"
+  },
+  "reviews": {
+    "heading": "Reviews",
+    "writeReview": "Write a Review",
+    "yourName": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "yourRating": "Rating",
+    "yourReview": "Your Review",
+    "reviewPlaceholder": "Share your thoughts on this spirit…",
+    "submit": "Submit Review",
+    "submitting": "Submitting…",
+    "cancel": "Cancel",
+    "noReviews": "No reviews yet. Be the first to share your thoughts!",
+    "allFieldsRequired": "Please fill in all fields and select a rating.",
+    "submitError": "Failed to submit review. Please try again."
   }
 }

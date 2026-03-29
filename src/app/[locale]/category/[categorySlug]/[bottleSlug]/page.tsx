@@ -17,6 +17,7 @@ import BottleDetail from '@/components/BottleDetail';
 import JsonLd from '@/components/JsonLd';
 import ScrollReveal from '@/components/ScrollReveal';
 import ReadingProgress from '@/components/ReadingProgress';
+import ReviewSection from '@/components/ReviewSection';
 
 export const dynamicParams = false;
 
@@ -129,6 +130,8 @@ export default function BottlePage({
           </div>
         </div>
       )}
+
+      <ReviewSection bottleId={bottle.id} />
 
       <JsonLd bottle={bottle} locale={loc} />
     </div>
