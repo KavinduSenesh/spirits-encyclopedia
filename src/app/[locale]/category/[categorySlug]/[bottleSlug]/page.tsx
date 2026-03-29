@@ -52,6 +52,11 @@ export async function generateMetadata({
         si: `/si/category/${bottle.categoryId}/${bottleSlug}`,
       },
     },
+    openGraph: {
+      title: bottle.name[loc],
+      description: bottle.history[loc].slice(0, 160),
+      type: 'article',
+    },
   };
 }
 

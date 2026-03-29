@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://srilankaspirits.com/sitemap.xml',
+    sitemap: 'https://spirits-encyclopedia.vercel.app/sitemap.xml',
   };
 }

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { getAllCategories, getBottlesByCategory } from '@/lib/data';
 
-const BASE_URL = 'https://srilankaspirits.com';
+const BASE_URL = 'https://spirits-encyclopedia.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const categories = getAllCategories();

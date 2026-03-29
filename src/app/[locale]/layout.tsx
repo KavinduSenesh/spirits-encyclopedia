@@ -29,15 +29,24 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://srilankaspirits.com'),
+  metadataBase: new URL('https://spirits-encyclopedia.vercel.app'),
   title: {
     template: '%s | The Spirits Encyclopedia',
     default: 'The Spirits Encyclopedia',
   },
-  description: 'An encyclopedic guide to the world\'s spirits',
+  description: 'An encyclopedic guide to the world\'s spirits — exploring the history, production, and cultural significance of alcoholic beverages from around the globe.',
+  keywords: ['spirits', 'encyclopedia', 'whisky', 'rum', 'gin', 'vodka', 'arrack', 'beer', 'wine', 'stout', 'alcoholic beverages', 'spirits guide'],
   robots: {
     index: true,
     follow: true,
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'The Spirits Encyclopedia',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
   },
 };
 
