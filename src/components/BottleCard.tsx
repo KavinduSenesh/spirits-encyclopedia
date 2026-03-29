@@ -1,7 +1,10 @@
-import Image from 'next/image';
+'use client';
+
+import SkeletonImage from './SkeletonImage';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import type { Bottle } from '@/lib/data';
+import { useTilt } from '@/hooks/useTilt';
 
 export default function BottleCard({
   bottle,
@@ -11,32 +14,40 @@ export default function BottleCard({
   categorySlug: string;
 }) {
   const locale = useLocale() as 'en' | 'si';
+  const { ref, style, glare, onMouseMove, onMouseLeave } = useTilt(7);
 
   return (
+    <div ref={ref} style={style} onMouseMove={onMouseMove} onMouseLeave={onMouseLeave}>
     <Link
       href={`/category/${categorySlug}/${bottle.slug}`}
-      className="group relative block overflow-hidden rounded-xl border border-border-amber bg-bg-card/80 transition-all duration-300 hover:border-amber/25 hover:bg-bg-card hover:-translate-y-0.5"
+      className="group relative block overflow-hidden rounded-xl border border-border-amber bg-bg-card/80 transition-all duration-300 hover:border-amber/25 hover:bg-bg-card"
     >
+      <div
+        className="absolute inset-0 pointer-events-none z-20 rounded-xl"
+        style={{
+          background: `radial-gradient(circle at ${glare.x}% ${glare.y}%, rgba(255,255,255,${glare.opacity}) 0%, transparent 60%)`,
+        }}
+      />
       <div className="absolute top-0 inset-x-0 h-0.5 bg-gradient-to-r from-transparent via-amber to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
 
       {/* Image with ambient glow */}
-      <div className="relative aspect-[3/4] overflow-hidden bg-bg-elevated">
+      <div className="relative aspect-square overflow-hidden bg-bg-elevated">
         {bottle.image ? (
           <>
             {/* Ambient spotlight glow */}
             <div
               className="absolute inset-0 opacity-40 group-hover:opacity-60 transition-opacity duration-500"
               style={{
-                background: 'radial-gradient(ellipse at 50% 60%, rgba(200,149,108,0.15) 0%, rgba(200,149,108,0.05) 40%, transparent 70%)',
+                background: 'radial-gradient(ellipse at 50% 60%, var(--color-amber-radial-strong) 0%, var(--color-amber-radial-subtle) 40%, transparent 70%)',
               }}
             />
             {/* Subtle reflection surface */}
             <div className="absolute bottom-0 inset-x-0 h-1/4 bg-gradient-to-t from-amber/[0.03] to-transparent" />
-            <Image
+            <SkeletonImage
               src={bottle.image}
               alt={bottle.name[locale]}
               fill
-              className="object-contain p-3 drop-shadow-[0_8px_24px_rgba(200,149,108,0.12)] transition-transform duration-500 scale-110 group-hover:scale-[1.15]"
+              className="object-contain p-3 drop-shadow-amber-md transition-[opacity,transform] duration-500 scale-110 group-hover:scale-[1.15]"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             />
             {/* Bottom fade into card content */}
@@ -52,11 +63,11 @@ export default function BottleCard({
       </div>
 
       {/* Content */}
-      <div className="p-5">
-        <h3 className="text-text-primary font-normal mb-1">
+      <div className="p-4">
+        <h3 className="text-text-primary text-sm font-normal mb-1">
           {bottle.name[locale]}
         </h3>
-        <div className="flex items-center gap-2 mt-3">
+        <div className="flex items-center gap-2 mt-2">
           <span className="bg-amber-glow border border-border-amber text-amber text-[12px] px-3 py-0.5 rounded-full">
             {bottle.abv}
           </span>
@@ -70,5 +81,6 @@ export default function BottleCard({
         &#8594;
       </span>
     </Link>
+    </div>
   );
 }

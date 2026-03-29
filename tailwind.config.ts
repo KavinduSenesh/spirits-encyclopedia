@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: 'class',
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,18 +10,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'bg-primary': '#0d1117',
-        'bg-card': '#161b22',
-        'bg-elevated': '#1c2128',
-        'border-default': '#30363d',
-        'border-amber': 'rgba(200,149,108,0.15)',
-        'text-primary': '#f0f6fc',
-        'text-secondary': '#c9d1d9',
-        'text-muted': '#8b949e',
-        'text-faint': '#484f58',
-        'amber': '#c8956c',
-        'amber-dark': '#a07040',
-        'amber-glow': 'rgba(200,149,108,0.08)',
+        'bg-primary': 'rgb(var(--color-bg-primary) / <alpha-value>)',
+        'bg-card': 'rgb(var(--color-bg-card) / <alpha-value>)',
+        'bg-elevated': 'rgb(var(--color-bg-elevated) / <alpha-value>)',
+        'border-default': 'rgb(var(--color-border-default) / <alpha-value>)',
+        'border-amber': 'var(--color-border-amber)',
+        'text-primary': 'rgb(var(--color-text-primary) / <alpha-value>)',
+        'text-secondary': 'rgb(var(--color-text-secondary) / <alpha-value>)',
+        'text-muted': 'rgb(var(--color-text-muted) / <alpha-value>)',
+        'text-faint': 'rgb(var(--color-text-faint) / <alpha-value>)',
+        'amber': 'rgb(var(--color-amber) / <alpha-value>)',
+        'amber-dark': 'rgb(var(--color-amber-dark) / <alpha-value>)',
+        'amber-glow': 'var(--color-amber-glow)',
       },
     },
   },

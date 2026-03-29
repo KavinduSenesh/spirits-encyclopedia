@@ -2,9 +2,12 @@ import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { getAllCategories } from '@/lib/data';
+import { getAllCategories, getAllBottles, getFeaturedBottles } from '@/lib/data';
 import CategoryCard from '@/components/CategoryCard';
 import Hero from '@/components/Hero';
+import ScrollReveal from '@/components/ScrollReveal';
+import RandomBottleButton from '@/components/RandomBottleButton';
+import FeaturedCarousel from '@/components/FeaturedCarousel';
 
 export async function generateMetadata({
   params: { locale },
@@ -33,10 +36,13 @@ export default function HomePage({
   setRequestLocale(locale);
   const t = useTranslations('home');
   const categories = getAllCategories();
+  const allBottles = getAllBottles();
+  const featured = getFeaturedBottles(6);
 
   return (
     <>
       <Hero />
+      <FeaturedCarousel bottles={featured} />
       <div className="mx-auto max-w-7xl px-6 py-12">
         <div className="flex items-center gap-4 mb-10">
           <h2 className="text-text-primary text-[18px] font-light tracking-wide whitespace-nowrap">
@@ -45,9 +51,15 @@ export default function HomePage({
           <div className="flex-1 h-px bg-gradient-to-r from-border-amber to-transparent" />
         </div>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {categories.map((category) => (
-            <CategoryCard key={category.id} category={category} />
+          {categories.map((category, i) => (
+            <ScrollReveal key={category.id} delay={i * 80}>
+              <CategoryCard category={category} />
+            </ScrollReveal>
           ))}
+        </div>
+
+        <div className="mt-12 flex justify-center">
+          <RandomBottleButton bottles={allBottles} />
         </div>
       </div>
     </>

@@ -4,8 +4,9 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { routing } from '@/i18n/routing';
 import { getAllCategories, getCategoryBySlug, getBottlesByCategory } from '@/lib/data';
-import BottleCard from '@/components/BottleCard';
 import Breadcrumb from '@/components/Breadcrumb';
+import RandomBottleButton from '@/components/RandomBottleButton';
+import FilterableBottleGrid from '@/components/FilterableBottleGrid';
 
 export const dynamicParams = false;
 
@@ -63,16 +64,14 @@ export default function CategoryPage({
         <p className="text-text-muted mt-2">{category.description[loc]}</p>
       </div>
 
-      {bottles.length > 0 ? (
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {bottles.map((bottle) => (
-            <BottleCard
-              key={bottle.id}
-              bottle={bottle}
-              categorySlug={categorySlug}
-            />
-          ))}
+      {bottles.length > 1 && (
+        <div className="mb-6 flex justify-end">
+          <RandomBottleButton bottles={bottles} categorySlug={categorySlug} />
         </div>
+      )}
+
+      {bottles.length > 0 ? (
+        <FilterableBottleGrid bottles={bottles} categorySlug={categorySlug} />
       ) : (
         <p className="text-text-muted/60 italic">{t('noEntries')}</p>
       )}
