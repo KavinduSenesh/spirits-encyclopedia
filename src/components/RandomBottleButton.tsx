@@ -36,11 +36,11 @@ export default function RandomBottleButton({ bottles, categorySlug }: RandomBott
       onClick={handleClick}
       disabled={spinning}
       className="group relative inline-flex items-center gap-2.5 rounded-full
-        bg-gradient-to-r from-amber-600 to-amber-500
-        px-6 py-3 text-sm font-medium text-white
-        shadow-lg shadow-amber-600/20
+        bg-gradient-to-r from-amber to-amber-dark
+        px-6 py-3 text-sm font-medium text-bg-primary
+        shadow-lg shadow-amber/20
         transition-all duration-300
-        hover:shadow-xl hover:shadow-amber-600/30 hover:scale-[1.03]
+        hover:shadow-xl hover:shadow-amber/30 hover:scale-[1.03]
         active:scale-95
         disabled:opacity-70 disabled:cursor-wait"
     >
