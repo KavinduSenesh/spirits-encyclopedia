@@ -36,8 +36,8 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-3">
             <button
               onClick={() => setSearchOpen(true)}
-              className="flex items-center gap-2 rounded-lg bg-surface-card px-3 py-1.5
-                text-xs text-text-muted ring-1 ring-border-subtle
+              className="flex items-center gap-2 rounded-lg bg-bg-card px-3 py-1.5
+                text-xs text-text-muted ring-1 ring-border-default/40
                 hover:ring-border-amber hover:text-text-secondary transition-all"
             >
               <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
@@ -45,7 +45,7 @@ export default function Header() {
                 <path d="M21 21l-4.35-4.35" />
               </svg>
               <span>Search</span>
-              <kbd className="ml-1 rounded bg-bg-primary/60 px-1.5 py-0.5 text-[10px] text-text-faint ring-1 ring-border-subtle">
+              <kbd className="ml-1 rounded bg-bg-primary/60 px-1.5 py-0.5 text-[10px] text-text-faint ring-1 ring-border-default/40">
                 ⌘K
               </kbd>
             </button>

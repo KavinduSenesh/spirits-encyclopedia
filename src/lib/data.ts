@@ -57,13 +57,6 @@ export function getAllBottles(): Bottle[] {
   return data.bottles.filter(hasImage);
 }
 
-export function searchBottles(query: string, locale: 'en' | 'si'): Bottle[] {
-  const lower = query.toLowerCase();
-  return data.bottles.filter((b) =>
-    hasImage(b) && b.name[locale].toLowerCase().includes(lower)
-  );
-}
-
 export function getFeaturedBottles(count: number = 6): Bottle[] {
   const categories = data.categories;
   const featured: Bottle[] = [];

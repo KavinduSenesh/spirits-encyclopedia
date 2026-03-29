@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 export default function SkeletonImage({
   className = '',
+  alt,
   ...props
 }: ImageProps) {
   const [loaded, setLoaded] = useState(false);
@@ -16,6 +17,7 @@ export default function SkeletonImage({
       )}
       <Image
         {...props}
+        alt={alt}
         className={`${className} ${loaded ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300`}
         onLoad={() => setLoaded(true)}
       />

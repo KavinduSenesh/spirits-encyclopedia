@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import LocaleSwitcher from './LocaleSwitcher';
 import ThemeToggle from './ThemeToggle';
@@ -15,6 +15,7 @@ interface MobileMenuProps {
 
 export default function MobileMenu({ isOpen, onClose, categories, onSearchOpen }: MobileMenuProps) {
   const locale = useLocale() as 'en' | 'si';
+  const t = useTranslations('commandSearch');
 
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
@@ -43,15 +44,15 @@ export default function MobileMenu({ isOpen, onClose, categories, onSearchOpen }
         <div className="px-8">
           <button
             onClick={onSearchOpen}
-            className="w-full flex items-center gap-2.5 rounded-lg bg-surface-card px-4 py-3
-              text-sm text-text-muted ring-1 ring-border-subtle
+            className="w-full flex items-center gap-2.5 rounded-lg bg-bg-card px-4 py-3
+              text-sm text-text-muted ring-1 ring-border-default/40
               hover:ring-border-amber transition-all"
           >
             <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
               <circle cx="11" cy="11" r="8" />
               <path d="M21 21l-4.35-4.35" />
             </svg>
-            <span>Search spirits…</span>
+            <span>{t('placeholder')}</span>
           </button>
         </div>
       )}

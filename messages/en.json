@@ -50,10 +50,6 @@
     "productionMethod": "Production Method",
     "history": "Historical Background"
   },
-  "search": {
-    "placeholder": "Search bottles...",
-    "noResults": "No bottles found."
-  },
   "random": {
     "explore": "Surprise Me",
     "exploring": "Finding a spirit…"

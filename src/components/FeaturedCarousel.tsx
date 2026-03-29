@@ -2,7 +2,7 @@
 
 import { useRef, useState, useCallback, useEffect } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import SkeletonImage from './SkeletonImage';
 import type { Bottle } from '@/lib/data';
 
@@ -45,11 +45,13 @@ export default function FeaturedCarousel({ bottles }: FeaturedCarouselProps) {
 
   // Drag-to-scroll
   const isDragging = useRef(false);
+  const hasDragged = useRef(false);
   const startX = useRef(0);
   const scrollStart = useRef(0);
 
   const onPointerDown = (e: React.PointerEvent) => {
     isDragging.current = true;
+    hasDragged.current = false;
     startX.current = e.clientX;
     scrollStart.current = scrollRef.current?.scrollLeft ?? 0;
     scrollRef.current?.setPointerCapture(e.pointerId);
@@ -58,11 +60,19 @@ export default function FeaturedCarousel({ bottles }: FeaturedCarouselProps) {
   const onPointerMove = (e: React.PointerEvent) => {
     if (!isDragging.current || !scrollRef.current) return;
     const dx = e.clientX - startX.current;
+    if (Math.abs(dx) > 5) hasDragged.current = true;
     scrollRef.current.scrollLeft = scrollStart.current - dx;
   };
 
   const onPointerUp = () => {
     isDragging.current = false;
+  };
+
+  const onClickCapture = (e: React.MouseEvent) => {
+    if (hasDragged.current) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
   };
 
   if (bottles.length === 0) return null;
@@ -80,7 +90,7 @@ export default function FeaturedCarousel({ bottles }: FeaturedCarouselProps) {
             disabled={!canScrollLeft}
             aria-label="Scroll left"
             className="rounded-full p-2 text-text-muted transition-colors
-              hover:bg-surface-card hover:text-text-primary
+              hover:bg-bg-card hover:text-text-primary
               disabled:opacity-30 disabled:cursor-default"
           >
             <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
@@ -92,7 +102,7 @@ export default function FeaturedCarousel({ bottles }: FeaturedCarouselProps) {
             disabled={!canScrollRight}
             aria-label="Scroll right"
             className="rounded-full p-2 text-text-muted transition-colors
-              hover:bg-surface-card hover:text-text-primary
+              hover:bg-bg-card hover:text-text-primary
               disabled:opacity-30 disabled:cursor-default"
           >
             <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
@@ -108,6 +118,7 @@ export default function FeaturedCarousel({ bottles }: FeaturedCarouselProps) {
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
         onPointerCancel={onPointerUp}
+        onClickCapture={onClickCapture}
         className="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory
           pb-4 -mb-4 cursor-grab active:cursor-grabbing
           scrollbar-none"
@@ -116,12 +127,12 @@ export default function FeaturedCarousel({ bottles }: FeaturedCarouselProps) {
         {bottles.map((bottle) => (
           <Link
             key={bottle.id}
-            href={`/${locale}/category/${bottle.categoryId}/${bottle.slug}`}
+            href={`/category/${bottle.categoryId}/${bottle.slug}`}
             className="group flex-shrink-0 snap-start w-[200px] sm:w-[220px]"
             draggable={false}
           >
-            <div className="relative aspect-[3/4] rounded-xl overflow-hidden bg-surface-card
-              ring-1 ring-border-subtle transition-all duration-300
+            <div className="relative aspect-[3/4] rounded-xl overflow-hidden bg-bg-card
+              ring-1 ring-border-default/40 transition-all duration-300
               group-hover:ring-border-amber group-hover:shadow-lg group-hover:shadow-amber-900/10">
               <SkeletonImage
                 src={bottle.image}

@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useCallback } from 'react';
-import { useRouter } from 'next/navigation';
-import { useLocale, useTranslations } from 'next-intl';
+import { useRouter } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 import type { Bottle } from '@/lib/data';
 
 interface RandomBottleButtonProps {
@@ -13,7 +13,6 @@ interface RandomBottleButtonProps {
 export default function RandomBottleButton({ bottles, categorySlug }: RandomBottleButtonProps) {
   const [spinning, setSpinning] = useState(false);
   const router = useRouter();
-  const locale = useLocale();
   const t = useTranslations('random');
 
   const handleClick = useCallback(() => {
@@ -23,13 +22,12 @@ export default function RandomBottleButton({ bottles, categorySlug }: RandomBott
     const idx = Math.floor(Math.random() * bottles.length);
     const bottle = bottles[idx];
 
-    // Find the category slug for this bottle
     const slug = categorySlug ?? bottle.categoryId;
 
     setTimeout(() => {
-      router.push(`/${locale}/category/${slug}/${bottle.slug}`);
+      router.push(`/category/${slug}/${bottle.slug}`);
     }, 400);
-  }, [spinning, bottles, categorySlug, locale, router]);
+  }, [spinning, bottles, categorySlug, router]);
 
   if (bottles.length === 0) return null;
 
@@ -47,7 +45,7 @@ export default function RandomBottleButton({ bottles, categorySlug }: RandomBott
         disabled:opacity-70 disabled:cursor-wait"
     >
       <svg
-        className={`h-4 w-4 transition-transform duration-400 ${spinning ? 'animate-spin' : 'group-hover:rotate-180'}`}
+        className={`h-4 w-4 transition-transform duration-300 ${spinning ? 'animate-spin' : 'group-hover:rotate-180'}`}
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"

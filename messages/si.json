@@ -50,10 +50,6 @@
     "productionMethod": "නිෂ්පාදන ක්‍රමය",
     "history": "ඓතිහාසික පසුබිම"
   },
-  "search": {
-    "placeholder": "බෝතල් සොයන්න...",
-    "noResults": "බෝතල් හමු නොවීය."
-  },
   "random": {
     "explore": "අහඹු බෝතලයක්",
     "exploring": "සොයමින්…"

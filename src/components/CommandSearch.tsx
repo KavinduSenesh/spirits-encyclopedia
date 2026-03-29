@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter } from '@/i18n/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { getAllBottles, getAllCategories, type Bottle, type Category } from '@/lib/data';
 
@@ -99,9 +99,9 @@ export default function CommandSearch({ isOpen, onClose }: CommandSearchProps) {
   const navigate = useCallback(
     (bottle: Bottle) => {
       onClose();
-      router.push(`/${locale}/category/${bottle.categoryId}/${bottle.slug}`);
+      router.push(`/category/${bottle.categoryId}/${bottle.slug}`);
     },
-    [locale, onClose, router]
+    [onClose, router]
   );
 
   const handleKeyDown = useCallback(
@@ -146,7 +146,7 @@ export default function CommandSearch({ isOpen, onClose }: CommandSearchProps) {
       <div
         onClick={(e) => e.stopPropagation()}
         className="relative w-full max-w-2xl mx-4 bg-bg-primary rounded-2xl shadow-2xl
-          ring-1 ring-border-subtle overflow-hidden animate-scale-in"
+          ring-1 ring-border-default/40 overflow-hidden animate-scale-in"
       >
         {/* Search input */}
         <div className="flex items-center gap-3 px-5 border-b border-border-default/40">
@@ -164,7 +164,7 @@ export default function CommandSearch({ isOpen, onClose }: CommandSearchProps) {
             className="flex-1 bg-transparent py-4 text-lg text-text-primary
               placeholder:text-text-faint focus:outline-none"
           />
-          <kbd className="hidden sm:inline-flex items-center gap-0.5 rounded bg-surface-card px-1.5 py-0.5 text-[10px] text-text-muted ring-1 ring-border-subtle">
+          <kbd className="hidden sm:inline-flex items-center gap-0.5 rounded bg-bg-card px-1.5 py-0.5 text-[10px] text-text-muted ring-1 ring-border-default/40">
             ESC
           </kbd>
         </div>
@@ -176,7 +176,7 @@ export default function CommandSearch({ isOpen, onClose }: CommandSearchProps) {
             className={`flex-shrink-0 rounded-full px-3 py-1 text-xs font-medium transition-all
               ${selectedCategory === null
                 ? 'bg-amber-600 text-white'
-                : 'bg-surface-card text-text-muted ring-1 ring-border-subtle hover:ring-border-amber'
+                : 'bg-bg-card text-text-muted ring-1 ring-border-default/40 hover:ring-border-amber'
               }`}
           >
             {t('allCategories')}
@@ -188,7 +188,7 @@ export default function CommandSearch({ isOpen, onClose }: CommandSearchProps) {
               className={`flex-shrink-0 rounded-full px-3 py-1 text-xs font-medium transition-all
                 ${selectedCategory === cat.id
                   ? 'bg-amber-600 text-white'
-                  : 'bg-surface-card text-text-muted ring-1 ring-border-subtle hover:ring-border-amber'
+                  : 'bg-bg-card text-text-muted ring-1 ring-border-default/40 hover:ring-border-amber'
                 }`}
             >
               {cat.name[locale]}
@@ -219,7 +219,7 @@ export default function CommandSearch({ isOpen, onClose }: CommandSearchProps) {
                       onClick={() => navigate(bottle)}
                       onMouseEnter={() => setSelectedIndex(idx)}
                       className={`w-full flex items-center gap-3 px-5 py-2.5 text-left transition-colors
-                        ${isSelected ? 'bg-surface-card' : 'hover:bg-surface-card/50'}`}
+                        ${isSelected ? 'bg-bg-card' : 'hover:bg-bg-card/50'}`}
                     >
                       <div className="flex-1 min-w-0">
                         <p className={`text-sm truncate ${isSelected ? 'text-amber' : 'text-text-primary'}`}>
